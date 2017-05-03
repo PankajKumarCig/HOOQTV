@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="HOOQ" allow-return-values="true" verbose="2">
+	<test name="Grouping" preserve-order="true">
+			<groups>
+				<run>
+					<include name="web"/>
+				</run>
+			</groups>
+		<classes>	
+		       <class name="tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage"/>
+		       	<class name="tv.hooq.web.scripts.HOOQ_Web_ConitnueWatching"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_FaceBookLogin"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_FAQ_Search"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_FAQLink"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_GeoLocation"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_GetStarted_All_Users"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Web_Login_Email_HaveAccount"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Web_Login_Email_InvalidMobile_No"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Web_Login_ResendEmail"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_AnnonymousUserAttemptingContentPlayback"/>	    												
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_PlayerSettings"/>
+		       	<class name="tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Settings"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Signup_Geolocation"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_SignUPTermsAndConditionPrivacyPolicy"/>		    
+				<class name="tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Support_BeforeLogin"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag"/>
+		       	<class name="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_Ticket"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_From_History"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite"/>	    												
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater"/>	       	
+		</classes>
+	<class name="tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater"/>	       	
+		</classes>
+	</test>
+</suite>
