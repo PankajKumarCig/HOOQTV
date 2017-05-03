@@ -1,0 +1,53 @@
+2016-11-21 14:15:11-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-21 14:15:39-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : c92_HOOQ_EmailLogin
+2016-11-21 14:15:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2016-11-21 14:16:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Login with Facebook
+2016-11-21 14:17:10-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-21 14:17:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : c92_HOOQ_EmailLogin
+2016-11-21 14:17:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2016-11-21 14:17:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Login with Facebook
+2016-11-21 14:32:57-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-21 14:33:21-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : c92_HOOQ_EmailLogin
+2016-11-21 14:33:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2016-11-21 14:33:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Login with Facebook
+2016-11-21 14:34:51-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-21 14:35:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_FaceBookLogin
+2016-11-21 14:35:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2016-11-21 14:35:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Login with Facebook
+2016-11-21 14:38:11-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-21 14:38:19-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_Search
+2016-11-21 14:38:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2016-11-21 14:38:36-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Flash in: Search Textbox
+2016-11-21 14:38:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Flash
+2016-11-21 14:38:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2016-11-21 14:51:45-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-21 14:52:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_Search
+2016-11-21 14:52:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2016-11-21 14:52:11-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Flash in: Search Textbox
+2016-11-21 14:52:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Flash
+2016-11-21 14:52:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2016-11-21 14:53:14-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-21 14:53:31-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_Search
+2016-11-21 14:53:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2016-11-21 14:53:33-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Flash in: Search Textbox
+2016-11-21 14:53:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Flash
+2016-11-21 14:53:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2016-11-21 15:24:13-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-21 15:24:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Favorite_WatchLater_Browse
+2016-11-21 15:25:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Favorite
+2016-11-21 15:29:14-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-21 15:30:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Favorite_WatchLater_Browse
+2016-11-21 15:32:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Favorite
+2016-11-21 15:35:00-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-21 15:35:20-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Favorite_WatchLater_Browse
+2016-11-21 15:36:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Favorite
+2016-11-21 15:37:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Favorite_WatchLater_Browse
+2016-11-21 15:40:05-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-21 15:40:16-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Favorite_WatchLater_Browse
+2016-11-21 15:40:37-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-21 15:40:59-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Favorite_WatchLater_Browse
+2016-11-21 15:42:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Favorite
+2016-11-21 16:05:32-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-21 16:05:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Favorite_WatchLater_Browse
+2016-11-21 16:07:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Favorite
+2016-11-21 16:07:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later

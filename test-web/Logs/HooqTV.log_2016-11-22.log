@@ -1,0 +1,78 @@
+2016-11-22 13:03:14-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 13:03:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Favorite_WatchLater_Browse
+2016-11-22 13:04:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Favorite
+2016-11-22 13:05:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2016-11-22 13:12:21-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 13:12:36-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Favorite_WatchLater_Browse
+2016-11-22 13:14:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Favorite
+2016-11-22 13:16:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2016-11-22 13:17:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2016-11-22 13:18:53-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 13:19:10-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Favorite_WatchLater_Browse
+2016-11-22 13:26:14-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 13:26:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Voucher
+2016-11-22 13:28:36-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456789 in: Invalid voucher Code
+2016-11-22 13:28:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Voucher code submission
+2016-11-22 13:31:04-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 13:31:55-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Voucher
+2016-11-22 13:35:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2016-11-22 13:35:48-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456789 in: Invalid voucher Code
+2016-11-22 13:35:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Voucher code submission
+2016-11-22 14:30:54-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 14:31:43-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Voucher
+2016-11-22 14:33:16-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 14:33:36-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Voucher
+2016-11-22 14:35:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2016-11-22 14:35:36-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456789 in: Invalid voucher Code
+2016-11-22 14:35:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Voucher code submission
+2016-11-22 14:37:30-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 14:37:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_Favorite_WatchLater_Browse
+2016-11-22 14:39:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Favorite
+2016-11-22 15:02:54-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 15:03:04-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_PlayerSettings
+2016-11-22 15:04:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2016-11-22 15:04:12-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Arrow in: Search Textbox
+2016-11-22 15:04:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Arrow
+2016-11-22 15:04:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2016-11-22 15:20:49-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 15:20:56-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_PlayerSettings
+2016-11-22 15:22:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2016-11-22 15:22:11-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Arrow in: Search Textbox
+2016-11-22 15:22:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Arrow
+2016-11-22 15:22:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2016-11-22 15:22:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Episode
+2016-11-22 15:24:05-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 15:24:20-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_PlayerSettings
+2016-11-22 15:25:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2016-11-22 15:25:12-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Arrow in: Search Textbox
+2016-11-22 15:25:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Arrow
+2016-11-22 15:25:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2016-11-22 15:25:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Episode
+2016-11-22 15:27:48-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 15:27:54-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_PlayerSettings
+2016-11-22 15:28:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2016-11-22 15:28:58-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Arrow in: Search Textbox
+2016-11-22 15:29:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Arrow
+2016-11-22 15:29:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2016-11-22 15:29:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Episode
+2016-11-22 15:32:05-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 15:32:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_PlayerSettings
+2016-11-22 15:33:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2016-11-22 15:33:11-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Arrow in: Search Textbox
+2016-11-22 15:33:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Arrow
+2016-11-22 15:33:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2016-11-22 15:33:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Episode
+2016-11-22 15:37:50-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 15:37:58-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_PlayerSettings
+2016-11-22 15:39:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2016-11-22 15:39:04-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Arrow in: Search Textbox
+2016-11-22 15:39:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Arrow
+2016-11-22 15:39:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2016-11-22 15:39:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Episode
+2016-11-22 15:41:53-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2016-11-22 15:42:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_PlayerSettings
+2016-11-22 15:43:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2016-11-22 15:43:41-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Arrow in: Search Textbox
+2016-11-22 15:43:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Arrow
+2016-11-22 15:43:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2016-11-22 15:43:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Episode

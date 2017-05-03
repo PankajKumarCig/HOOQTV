@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="HOOQ" allow-return-values="true" verbose="2">
+	<test name="Grouping" preserve-order="true">
+			<groups>
+				<run>
+					<include name="web"/>
+				</run>
+			</groups>
+		<classes>		
+		    	<class name="tv.hooq.web.scripts.Hooq_PlayerSettings"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Player_Settings_ActiveUserAttemptingVideoPlayback"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Player_Settings_AnnonymousUserAttemptingContentPlayback"/>	
+		    	<class name="tv.hooq.web.scripts.HOOQ_Player_Settings_FreeTrialUserAttemptingContentPlayback"/>			
+		   		<class name="tv.hooq.web.scripts.HOOQ_Player_Settings_LapsedUserAattemptingVideoPlayback"/>	   		
+				<class name="tv.hooq.web.scripts.HOOQ_Player_Settings_UserAccess"/>			
+		</classes>
+	</test>
+</suite>

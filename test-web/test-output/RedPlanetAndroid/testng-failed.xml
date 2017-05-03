@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [RedPlanetAndroid]" allow-return-values="true">
+  <test name="Grouping(failed)">
+    <groups>
+      <run>
+        <include name="Android"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.androidMobile.scripts.RP_007_RetriveBookingAsGuest">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_007_RetriveBookingAsGuest -->
+      <class name="com.androidMobile.scripts.RP_004_TestGuestBookingFromHome">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="tearDown"/>
+          <include name="testGuestBookingFromHome"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_004_TestGuestBookingFromHome -->
+      <class name="com.androidMobile.scripts.RP_Smoke_TestRetrieveBookings">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_Smoke_TestRetrieveBookings -->
+      <class name="com.androidMobile.scripts.RP_001_TestLoginFromMyAccount">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_001_TestLoginFromMyAccount -->
+      <class name="com.androidMobile.scripts.RP_009_TestSignUpUser">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_009_TestSignUpUser -->
+      <class name="com.androidMobile.scripts.RP_003_TestSearchHotels">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="testSearchHotels" invocation-numbers="1"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_003_TestSearchHotels -->
+      <class name="com.androidMobile.scripts.RP_008_RetriveBookingAsMember">
+        <methods>
+          <include name="retriveBookingAsMember" invocation-numbers="0"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_008_RetriveBookingAsMember -->
+      <class name="com.androidMobile.scripts.RP_006_TestBookingAsAMember">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="testBookingAsAMember" invocation-numbers="0"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_006_TestBookingAsAMember -->
+      <class name="com.androidMobile.scripts.RP_Smoke_TestHomeMainMenu">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_Smoke_TestHomeMainMenu -->
+      <class name="com.androidMobile.scripts.RP_002_TestLogInFromBookingScreen">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_002_TestLogInFromBookingScreen -->
+      <class name="com.androidMobile.scripts.RP_016_TestTabsLocalAttractions">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_016_TestTabsLocalAttractions -->
+      <class name="com.androidMobile.scripts.RP_Smoke_TestMyAccount">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_Smoke_TestMyAccount -->
+      <class name="com.androidMobile.scripts.RP_017_TestInputCreditCards">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="testInputCreditCards" invocation-numbers="2"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_017_TestInputCreditCards -->
+      <class name="com.androidMobile.scripts.RP_015_TestChatWithFrontDesk">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_015_TestChatWithFrontDesk -->
+      <class name="com.androidMobile.scripts.RP_Smoke_TestBookNow">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_Smoke_TestBookNow -->
+      <class name="com.androidMobile.scripts.RP_011_Forgot_Password">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="ResetPassword" invocation-numbers="3"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_011_Forgot_Password -->
+      <class name="com.androidMobile.scripts.RP_005_TestGuestBookingFromBookNow">
+        <methods>
+          <include name="testGuestBookingFromBookNow"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_005_TestGuestBookingFromBookNow -->
+      <class name="com.androidMobile.scripts.RP_014_TestInHousePhone">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- com.androidMobile.scripts.RP_014_TestInHousePhone -->
+    </classes>
+  </test> <!-- Grouping(failed) -->
+</suite> <!-- Failed suite [RedPlanetAndroid] -->

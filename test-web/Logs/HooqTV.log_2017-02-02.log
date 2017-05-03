@@ -1,0 +1,94 @@
+2017-02-02 09:19:35-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-02-02 09:19:48-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_PlayerSettings
+2017-02-02 09:19:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-02-02 09:19:51-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-02-02 09:19:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-02-02 09:20:16-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Login Email
+2017-02-02 09:20:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-02-02 09:20:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-02-02 09:20:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-02-02 09:20:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-02-02 09:22:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-02-02 09:22:04-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-02-02 09:22:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-02-02 09:22:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-02-02 09:22:41-main--INFO -com.ctaf.accelerators.TestEngine:Entered value DUPLEX in: Search Textbox
+2017-02-02 09:22:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: DUPLEX
+2017-02-02 09:22:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-02-02 14:59:57-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-02-02 15:00:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CarrierBilling
+2017-02-02 15:00:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-02-02 15:00:12-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-02-02 15:00:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-02-02 15:00:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-02-02 15:00:29-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-02-02 15:00:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-02-02 15:02:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-02-02 15:02:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-02-02 15:02:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-02-02 15:05:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Debit Card
+2017-02-02 15:05:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-02-02 15:07:00-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1111111111111111 in: Card Number
+2017-02-02 15:07:02-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Test_CignitiDebit in: Card User
+2017-02-02 15:07:04-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1221 in: Card Expire Date
+2017-02-02 15:07:07-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 4444 in: Card CVV Number
+2017-02-02 15:10:08-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-02-02 15:10:16-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CarrierBilling
+2017-02-02 15:10:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-02-02 15:10:22-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-02-02 15:10:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-02-02 15:10:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-02-02 15:10:39-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-02-02 15:11:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-02-02 15:11:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-02-02 15:11:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-02-02 15:11:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-02-02 15:11:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Debit Card
+2017-02-02 15:12:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-02-02 15:12:53-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1111111111111111 in: Card Number
+2017-02-02 15:12:55-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Test_CignitiDebit in: Card User
+2017-02-02 15:12:58-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1221 in: Card Expire Date
+2017-02-02 15:13:04-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 4444 in: Card CVV Number
+2017-02-02 15:15:06-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-02-02 15:15:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CarrierBilling
+2017-02-02 15:15:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-02-02 15:16:02-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-02-02 15:16:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-02-02 15:16:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-02-02 15:16:18-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-02-02 15:16:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-02-02 15:17:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-02-02 15:17:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-02-02 15:17:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-02-02 15:17:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Debit Card
+2017-02-02 15:17:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-02-02 15:18:04-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1111111111111111 in: Card Number
+2017-02-02 15:18:06-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Test_CignitiDebit in: Card User
+2017-02-02 15:18:08-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1221 in: Card Expire Date
+2017-02-02 15:18:12-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 4444 in: Card CVV Number
+2017-02-02 15:18:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-02-02 15:19:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-02-02 15:19:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-02-02 15:19:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-02-02 15:19:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Debit Card
+2017-02-02 15:19:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-02-02 15:19:38-main--INFO -com.ctaf.accelerators.TestEngine:Entered value ********* in: Card Number
+2017-02-02 15:19:40-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Test_CignitiDebit in: Card User
+2017-02-02 15:19:41-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1221 in: Card Expire Date
+2017-02-02 15:19:42-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 4444 in: Card CVV Number
+2017-02-02 16:16:05-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-02-02 16:16:18-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CarrierBilling
+2017-02-02 16:16:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-02-02 16:16:22-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-02-02 16:16:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-02-02 16:16:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-02-02 16:16:45-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-02-02 16:17:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-02-02 17:35:36-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-02-02 17:36:17-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CarrierBilling
+2017-02-02 17:36:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-02-02 17:36:47-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-02-02 17:36:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-02-02 17:37:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-02-02 17:38:01-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-02-02 17:38:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK

@@ -1,0 +1,47 @@
+2017-03-21 12:47:18-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-03-21 12:47:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Player_Settings_ActiveUserAttemptingVideoPlayback
+2017-03-21 12:47:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-03-21 12:47:32-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-03-21 12:47:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-03-21 12:47:44-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Login Email
+2017-03-21 12:47:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-03-21 12:47:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-03-21 12:47:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-03-21 12:47:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-03-21 12:49:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-03-21 12:49:15-main--INFO -com.ctaf.accelerators.TestEngine:Entered value The Owl And Co in: Search Textbox
+2017-03-21 12:49:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: The Owl And Co
+2017-03-21 12:49:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode 1
+2017-03-21 13:01:08-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-03-21 13:01:18-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Player_Settings_ActiveUserAttemptingVideoPlayback
+2017-03-21 13:01:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-03-21 13:01:21-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-03-21 13:01:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-03-21 13:01:35-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Login Email
+2017-03-21 13:01:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-03-21 13:01:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-03-21 13:01:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-03-21 13:01:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-03-21 13:01:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-03-21 13:01:53-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-03-21 13:01:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-03-21 13:02:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-03-21 13:02:07-main--INFO -com.ctaf.accelerators.TestEngine:Entered value The Owl And Co in: Search Textbox
+2017-03-21 13:02:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: The Owl And Co
+2017-03-21 13:02:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode 1
+2017-03-21 13:09:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-03-21 13:10:00-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-03-21 13:10:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Player_Settings_ActiveUserAttemptingVideoPlayback
+2017-03-21 13:10:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-03-21 13:10:09-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-03-21 13:10:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-03-21 13:10:23-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Login Email
+2017-03-21 13:10:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-03-21 13:10:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-03-21 13:10:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-03-21 13:10:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-03-21 13:11:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-03-21 13:11:56-main--INFO -com.ctaf.accelerators.TestEngine:Entered value The Owl And Co in: Search Textbox
+2017-03-21 13:12:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: The Owl And Co
+2017-03-21 13:12:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode 1
+2017-03-21 13:19:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out

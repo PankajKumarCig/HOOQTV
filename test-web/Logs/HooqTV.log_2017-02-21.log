@@ -1,0 +1,10 @@
+2017-02-21 10:22:18-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-02-21 10:22:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_FaceBookLogin
+2017-02-21 10:22:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-02-21 15:25:46-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-02-21 15:26:04-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : c171_HOOQ_CheckingOfAvailabilityOfPaymentMethodsForEachPlanType
+2017-02-21 15:26:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-02-21 15:26:08-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigstage14feb@yopmail.com in: Email Address
+2017-02-21 15:26:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-02-21 15:26:51-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigstage14feb@yopmail.com in: Login Email
+2017-02-21 15:27:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [HOOQ]" allow-return-values="true">
+  <test name="Grouping(failed)">
+    <groups>
+      <run>
+        <include name="web"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Support_BeforeLogin">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="tearDown"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Support_BeforeLogin -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_FaceBookLogin">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_FaceBookLogin -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_GeoLocation">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_GeoLocation -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_FAQ_Search">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="HOOQ_Web_FAQ_Search" invocation-numbers="0 1 2"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_FAQ_Search -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_SignUPTermsAndConditionPrivacyPolicy">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_SignUPTermsAndConditionPrivacyPolicy -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition">
+        <methods>
+          <include name="HOOQ_Web_TVOD_Rent_Terms_And_Condition" invocation-numbers="0 1 2"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage">
+        <methods>
+          <include name="HOOQ_Web_Home_Page_VerifyHomePage" invocation-numbers="0 1 2"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_PlayerSettings">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+          <include name="HOOQ_Web_PlayerSettings" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_PlayerSettings -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback">
+        <methods>
+          <include name="HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback" invocation-numbers="0"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite" invocation-numbers="0 1 2"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+          <include name="HOOQ_Web_Home_Page_VerifyBrowse" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Login_Email_InvalidMobile_No">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Login_Email_InvalidMobile_No -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Settings">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="HOOQ_Web_Settings" invocation-numbers="0 1 2"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Settings -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC">
+        <methods>
+          <include name="HOOQ_Web_TVOD_Rent_With_CC" invocation-numbers="0 1 2"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Login_Email_HaveAccount">
+        <methods>
+          <include name="HOOQ_Web_Login_Email_HaveAccount" invocation-numbers="0"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Login_Email_HaveAccount -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_FAQLink">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+          <include name="HOOQ_Web_FAQLink" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_FAQLink -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_GetStarted_All_Users">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+          <include name="HOOQ_Web_GetStarted_All_Users" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_GetStarted_All_Users -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback">
+        <methods>
+          <include name="HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback" invocation-numbers="0"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="HOOQ_Web_PickYourPlan_ALL_USER" invocation-numbers="0 1 2 3 4"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="HOOQ_Web_Search_ContentDetails" invocation-numbers="0 1 2"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_ConitnueWatching">
+        <methods>
+          <include name="HOOQ_Web_ConitnueWatching" invocation-numbers="0"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_ConitnueWatching -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Signup_Geolocation">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Signup_Geolocation -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="HOOQ_Web_Login_Email_Login" invocation-numbers="0"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="HOOQ_Web_Verify_Voucher" invocation-numbers="0 1 2"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher -->
+      <class name="tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="HOOQ_Home_Page_VerifyHomePage" invocation-numbers="0 1 2"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="HOOQ_Web_Support_AfterLogin" invocation-numbers="0 1 2"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_From_History">
+        <methods>
+          <include name="HOOQ_Web_Verify_PlayBack_From_History" invocation-numbers="0"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_From_History -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner">
+        <methods>
+          <include name="HOOQ_Web_Home_Page_VerifyBanner" invocation-numbers="0 1 2"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+          <include name="HOOQ_Web_TVOD_Rent_Flag" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater">
+        <methods>
+          <include name="HOOQ_Web_Verify_WatchLater" invocation-numbers="0 1"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="HOOQ_Web_Verify_Favorite" invocation-numbers="0 1"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_Ticket">
+        <methods>
+          <include name="HOOQ_Web_TVOD_Rent_With_Ticket" invocation-numbers="0"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_Ticket -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Login_ResendEmail">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Login_ResendEmail -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_AnnonymousUserAttemptingContentPlayback">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Player_Settings_AnnonymousUserAttemptingContentPlayback -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback">
+        <methods>
+          <include name="HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback" invocation-numbers="0"/>
+          <include name="tearDownMethod"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback -->
+      <class name="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="HOOQ_Web_Player_Settings_UserAccess" invocation-numbers="0 1"/>
+          <include name="reportHeader"/>
+        </methods>
+      </class> <!-- tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess -->
+    </classes>
+  </test> <!-- Grouping(failed) -->
+</suite> <!-- Failed suite [HOOQ] -->

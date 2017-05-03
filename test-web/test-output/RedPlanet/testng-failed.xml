@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [RedPlanet]" allow-return-values="true">
+  <test name="Grouping(failed)">
+    <groups>
+      <run>
+        <include name="Mobile"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.mobile.scripts.RP_016_TestTabsLocalAttractions">
+        <methods>
+          <include name="testLocalAttractions"/>
+          <include name="tearDownMethod"/>
+          <include name="setupSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_016_TestTabsLocalAttractions -->
+      <class name="com.mobile.scripts.RP_008_RetriveBookingAsMember">
+        <methods>
+          <include name="retriveBookingAsMember" invocation-numbers="0"/>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_008_RetriveBookingAsMember -->
+      <class name="com.mobile.scripts.RP_Smoke_TestBookNow">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_Smoke_TestBookNow -->
+      <class name="com.mobile.scripts.RP_013_ValidateFooterLinksInAboutUs">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="ValidateFooterLinksInAboutUs"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_013_ValidateFooterLinksInAboutUs -->
+      <class name="com.mobile.scripts.RP_017_TestInputCreditCards">
+        <methods>
+          <include name="testInputCreditCards"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_017_TestInputCreditCards -->
+      <class name="com.mobile.scripts.RP_001_TestLoginFromInStayMode">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_001_TestLoginFromInStayMode -->
+      <class name="com.mobile.scripts.RP_002_TestLogInFromBooking">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_002_TestLogInFromBooking -->
+      <class name="com.mobile.scripts.RP_015_TestChatWithFrontDesk">
+        <methods>
+          <include name="testChatWithFrontDesk"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_015_TestChatWithFrontDesk -->
+      <class name="com.mobile.scripts.RP_Smoke_TestRetrieveBookings">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_Smoke_TestRetrieveBookings -->
+      <class name="com.mobile.scripts.RP_007_RetriveBookingAsGuest">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_007_RetriveBookingAsGuest -->
+      <class name="com.mobile.scripts.RP_Smoke_TestHomeMainMenu_inStay">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_Smoke_TestHomeMainMenu_inStay -->
+      <class name="com.mobile.scripts.RP_Smoke_TestMyAccount">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_Smoke_TestMyAccount -->
+      <class name="com.mobile.scripts.RP_004_GuestBookingFromInstayMode">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_004_GuestBookingFromInstayMode -->
+      <class name="com.mobile.scripts.RP_010_ConnectWithFacebook">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="validateConnectWithFacebook"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_010_ConnectWithFacebook -->
+      <class name="com.mobile.scripts.RP_011_TestForgotPassword">
+        <methods>
+          <include name="tearDownMethod"/>
+          <include name="testForgotPassword"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_011_TestForgotPassword -->
+      <class name="com.mobile.scripts.RP_014_TestInHousePhone">
+        <methods>
+          <include name="testInHousePhone"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_014_TestInHousePhone -->
+      <class name="com.mobile.scripts.RP_012_ValidateSocialNetworkLinksInAboutUs">
+        <methods>
+          <include name="ValidateSocialNetworkLinksInAboutUs"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_012_ValidateSocialNetworkLinksInAboutUs -->
+      <class name="com.mobile.scripts.RP_006_BookingAsAMember">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_006_BookingAsAMember -->
+      <class name="com.mobile.scripts.RP_003_TestSearchHotels">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_003_TestSearchHotels -->
+      <class name="com.mobile.scripts.RP_009_TestSignUp">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+          <include name="testSignUpUser"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_009_TestSignUp -->
+      <class name="com.mobile.scripts.RP_005_GuestBookingFromBookNow">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_005_GuestBookingFromBookNow -->
+      <class name="com.mobile.scripts.RP_Smoke_TestHomeMainMenu_logout">
+        <methods>
+          <include name="reportHeader"/>
+          <include name="tearDownMethod"/>
+        </methods>
+      </class> <!-- com.mobile.scripts.RP_Smoke_TestHomeMainMenu_logout -->
+    </classes>
+  </test> <!-- Grouping(failed) -->
+</suite> <!-- Failed suite [RedPlanet] -->

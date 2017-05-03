@@ -1,0 +1,1268 @@
+2017-04-02 04:00:28-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-04-02 04:00:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_PlayerSettings
+2017-04-02 04:00:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 04:00:42-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-04-02 04:00:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 04:00:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 04:00:51-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 04:01:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 04:01:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:01:19-main--INFO -com.ctaf.accelerators.TestEngine:Entered value DUPLEX in: Search Textbox
+2017-04-02 04:01:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: DUPLEX
+2017-04-02 04:01:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-04-02 04:02:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 04:02:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:02:34-main--INFO -com.ctaf.accelerators.TestEngine:Entered value DUPLEX in: Search Textbox
+2017-04-02 04:02:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: DUPLEX
+2017-04-02 04:03:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-04-02 04:03:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Player Settings
+2017-04-02 04:03:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Pause Episode
+2017-04-02 04:04:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode
+2017-04-02 04:05:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Maximize the Video
+2017-04-02 04:05:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Maximize the Video
+2017-04-02 04:05:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 04:05:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:05:44-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Arrow in: Search Textbox
+2017-04-02 04:05:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Arrow
+2017-04-02 04:06:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode 1
+2017-04-02 04:07:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 04:07:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:07:01-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Arrow in: Search Textbox
+2017-04-02 04:07:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Arrow
+2017-04-02 04:07:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode 1
+2017-04-02 04:07:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Player Settings
+2017-04-02 04:08:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Pause Episode
+2017-04-02 04:08:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode
+2017-04-02 04:09:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Episode
+2017-04-02 04:10:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Next Episode
+2017-04-02 04:10:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Previous Episode
+2017-04-02 04:11:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Maximize the Video
+2017-04-02 04:11:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Maximize the Video
+2017-04-02 04:12:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 04:12:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 04:12:12-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_PlayerSettings
+2017-04-02 04:12:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 04:12:18-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 04:12:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 04:12:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 04:12:27-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 04:12:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 04:12:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:12:41-main--INFO -com.ctaf.accelerators.TestEngine:Entered value DUPLEX in: Search Textbox
+2017-04-02 04:12:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: DUPLEX
+2017-04-02 04:12:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-04-02 04:13:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 04:13:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:13:34-main--INFO -com.ctaf.accelerators.TestEngine:Entered value DUPLEX in: Search Textbox
+2017-04-02 04:13:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: DUPLEX
+2017-04-02 04:13:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-04-02 04:14:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Player Settings
+2017-04-02 04:14:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Pause Episode
+2017-04-02 04:15:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode
+2017-04-02 04:15:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Maximize the Video
+2017-04-02 04:16:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Maximize the Video
+2017-04-02 04:16:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 04:16:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:16:11-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Arrow in: Search Textbox
+2017-04-02 04:16:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Arrow
+2017-04-02 04:16:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode 1
+2017-04-02 04:17:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 04:17:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:17:06-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Arrow in: Search Textbox
+2017-04-02 04:17:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Arrow
+2017-04-02 04:17:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode 1
+2017-04-02 04:17:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Player Settings
+2017-04-02 04:17:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Pause Episode
+2017-04-02 04:18:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode
+2017-04-02 04:19:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Episode
+2017-04-02 04:20:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Next Episode
+2017-04-02 04:20:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Previous Episode
+2017-04-02 04:21:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Maximize the Video
+2017-04-02 04:21:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Maximize the Video
+2017-04-02 04:21:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 04:21:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 04:21:56-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_PlayerSettings
+2017-04-02 04:22:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Player_Settings_ActiveUserAttemptingVideoPlayback
+2017-04-02 04:22:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Player_Settings_AnnonymousUserAttemptingContentPlayback
+2017-04-02 04:22:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Player_Settings_FreeTrialUserAttemptingContentPlayback
+2017-04-02 04:22:30-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Player_Settings_LapsedUserAattemptingVideoPlayback
+2017-04-02 04:22:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Player_Settings_UserAccess
+2017-04-02 04:22:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 04:22:39-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-04-02 04:22:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 04:22:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 04:22:48-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 04:23:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 04:23:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:23:10-main--INFO -com.ctaf.accelerators.TestEngine:Entered value DUPLEX in: Search Textbox
+2017-04-02 04:23:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: DUPLEX
+2017-04-02 04:23:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-04-02 04:24:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:24:17-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Flash in: Search Textbox
+2017-04-02 04:24:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Flash
+2017-04-02 04:24:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode 1
+2017-04-02 04:25:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:25:27-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Flash in: Search Textbox
+2017-04-02 04:25:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Flash
+2017-04-02 04:25:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode 2
+2017-04-02 04:26:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:26:33-main--INFO -com.ctaf.accelerators.TestEngine:Entered value PK in: Search Textbox
+2017-04-02 04:26:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: PK
+2017-04-02 04:26:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-04-02 04:26:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 04:27:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Player_Settings_UserAccess
+2017-04-02 04:27:16-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Player_Settings_UserAccess
+2017-04-02 04:27:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 04:27:18-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 04:27:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 04:27:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 04:27:26-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 04:27:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 04:27:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:27:38-main--INFO -com.ctaf.accelerators.TestEngine:Entered value DUPLEX in: Search Textbox
+2017-04-02 04:27:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: DUPLEX
+2017-04-02 04:27:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-04-02 04:28:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:28:31-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Flash in: Search Textbox
+2017-04-02 04:28:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Flash
+2017-04-02 04:28:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode 1
+2017-04-02 04:29:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:29:23-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Flash in: Search Textbox
+2017-04-02 04:29:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Flash
+2017-04-02 04:29:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Play Episode 2
+2017-04-02 04:30:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 04:30:11-main--INFO -com.ctaf.accelerators.TestEngine:Entered value PK in: Search Textbox
+2017-04-02 04:30:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: PK
+2017-04-02 04:30:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-04-02 04:31:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 04:31:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CashCard
+2017-04-02 04:31:15-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CashCard
+2017-04-02 04:31:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 04:31:17-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 04:31:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 04:31:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 04:31:26-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 04:31:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 04:31:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:31:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:31:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 04:31:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Cash Card
+2017-04-02 04:31:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:32:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Cash Card
+2017-04-02 04:32:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:32:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:32:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:32:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 04:32:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Cash Card
+2017-04-02 04:32:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:32:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Cash Card
+2017-04-02 04:33:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:33:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:33:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:33:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 04:33:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Cash Card
+2017-04-02 04:33:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:33:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Cash Card
+2017-04-02 04:34:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:34:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:34:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:34:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 04:34:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Cash Card
+2017-04-02 04:34:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:34:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Cash Card
+2017-04-02 04:34:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:34:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:34:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:34:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 04:34:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Cash Card
+2017-04-02 04:34:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:35:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Cash Card
+2017-04-02 04:35:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 04:35:44-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CashCard
+2017-04-02 04:35:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CarrierBilling
+2017-04-02 04:35:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 04:35:54-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-04-02 04:35:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 04:35:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 04:36:02-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 04:36:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 04:36:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:36:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:36:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 04:36:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Carrier Billing
+2017-04-02 04:36:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:36:59-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 8888888888 in: Enter Mobile Number
+2017-04-02 04:37:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Carrier Billing
+2017-04-02 04:37:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:37:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:37:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:37:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 04:37:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Carrier Billing
+2017-04-02 04:37:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:38:08-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 8888888888 in: Enter Mobile Number
+2017-04-02 04:38:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Carrier Billing
+2017-04-02 04:38:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 04:38:51-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CarrierBilling
+2017-04-02 04:38:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 04:38:53-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 04:38:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 04:38:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 04:39:01-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 04:39:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 04:39:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:39:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:39:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 04:39:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Carrier Billing
+2017-04-02 04:39:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:39:33-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 8888888888 in: Enter Mobile Number
+2017-04-02 04:39:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Carrier Billing
+2017-04-02 04:40:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:40:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:40:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:40:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 04:40:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Carrier Billing
+2017-04-02 04:40:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:40:21-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 8888888888 in: Enter Mobile Number
+2017-04-02 04:40:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Carrier Billing
+2017-04-02 04:40:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 04:41:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CarrierBilling
+2017-04-02 04:41:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CreditCard
+2017-04-02 04:41:17-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CreditCard
+2017-04-02 04:41:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 04:41:19-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 04:41:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 04:41:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 04:41:32-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 04:41:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 04:41:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:41:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:41:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 04:41:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Credit Card
+2017-04-02 04:41:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:42:10-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 3433322344554437 in: Card Number
+2017-04-02 04:42:12-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Hooq User Credit in: Card User
+2017-04-02 04:42:13-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1224 in: Card Expire Date
+2017-04-02 04:42:14-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 122 in: Card CVV Number
+2017-04-02 04:42:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:42:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:42:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 04:42:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Credit Card
+2017-04-02 04:42:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:42:52-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 3433322344554437 in: Card Number
+2017-04-02 04:42:54-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Hooq User Credit in: Card User
+2017-04-02 04:42:55-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1224 in: Card Expire Date
+2017-04-02 04:42:56-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 122 in: Card CVV Number
+2017-04-02 04:43:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:43:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:43:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 04:43:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Credit Card
+2017-04-02 04:43:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:43:28-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 3433322344554437 in: Card Number
+2017-04-02 04:43:29-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Hooq User Credit in: Card User
+2017-04-02 04:43:30-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1224 in: Card Expire Date
+2017-04-02 04:43:31-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 122 in: Card CVV Number
+2017-04-02 04:43:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:43:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:43:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 04:43:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Credit Card
+2017-04-02 04:43:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:44:04-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 3433322344554437 in: Card Number
+2017-04-02 04:44:05-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Hooq User Credit in: Card User
+2017-04-02 04:44:06-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1224 in: Card Expire Date
+2017-04-02 04:44:07-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 122 in: Card CVV Number
+2017-04-02 04:44:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 04:44:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CreditCard
+2017-04-02 04:44:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 04:44:24-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinlaps01@yopmail.com in: Email Address
+2017-04-02 04:44:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 04:44:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 04:44:35-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 04:44:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 04:44:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:44:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:44:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 04:44:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Credit Card
+2017-04-02 04:44:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:45:10-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 3433322344554437 in: Card Number
+2017-04-02 04:45:11-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Hooq User Credit in: Card User
+2017-04-02 04:45:13-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1224 in: Card Expire Date
+2017-04-02 04:45:14-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 122 in: Card CVV Number
+2017-04-02 04:45:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:45:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:45:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 04:45:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Credit Card
+2017-04-02 04:45:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:45:43-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 3433322344554437 in: Card Number
+2017-04-02 04:45:44-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Hooq User Credit in: Card User
+2017-04-02 04:45:45-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1224 in: Card Expire Date
+2017-04-02 04:45:46-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 122 in: Card CVV Number
+2017-04-02 04:45:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:45:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:45:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 04:45:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Credit Card
+2017-04-02 04:45:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:46:15-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 3433322344554437 in: Card Number
+2017-04-02 04:46:16-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Hooq User Credit in: Card User
+2017-04-02 04:46:17-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1224 in: Card Expire Date
+2017-04-02 04:46:18-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 122 in: Card CVV Number
+2017-04-02 04:46:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:46:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:46:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 04:46:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Credit Card
+2017-04-02 04:46:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:46:47-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 3433322344554437 in: Card Number
+2017-04-02 04:46:48-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Hooq User Credit in: Card User
+2017-04-02 04:46:49-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1224 in: Card Expire Date
+2017-04-02 04:46:50-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 122 in: Card CVV Number
+2017-04-02 04:46:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 04:47:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_DebitCard
+2017-04-02 04:47:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_DebitCard
+2017-04-02 04:47:21-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_DebitCard
+2017-04-02 04:47:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 04:47:25-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinlaps01@yopmail.com in: Email Address
+2017-04-02 04:47:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 04:47:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 04:47:33-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 04:47:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 04:47:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:47:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:47:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 04:47:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Debit Card
+2017-04-02 04:47:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:48:05-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 3433322344554437 in: Card Number
+2017-04-02 04:48:07-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Hooq User Debit in: Card User
+2017-04-02 04:48:08-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1224 in: Card Expire Date
+2017-04-02 04:48:09-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 122 in: Card CVV Number
+2017-04-02 04:48:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:48:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:48:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:48:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 04:48:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Debit Card
+2017-04-02 04:48:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:48:38-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 3433322344554437 in: Card Number
+2017-04-02 04:48:39-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Hooq User Debit in: Card User
+2017-04-02 04:48:40-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1224 in: Card Expire Date
+2017-04-02 04:48:41-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 122 in: Card CVV Number
+2017-04-02 04:48:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:48:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:48:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:48:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 04:48:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Debit Card
+2017-04-02 04:48:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:49:11-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 3433322344554437 in: Card Number
+2017-04-02 04:49:12-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Hooq User Debit in: Card User
+2017-04-02 04:49:13-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1224 in: Card Expire Date
+2017-04-02 04:49:14-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 122 in: Card CVV Number
+2017-04-02 04:49:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:49:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:49:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:49:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 04:49:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Debit Card
+2017-04-02 04:49:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:49:43-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 3433322344554437 in: Card Number
+2017-04-02 04:49:44-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Hooq User Debit in: Card User
+2017-04-02 04:49:45-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1224 in: Card Expire Date
+2017-04-02 04:49:46-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 122 in: Card CVV Number
+2017-04-02 04:49:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:49:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:49:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:49:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 04:49:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Debit Card
+2017-04-02 04:49:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:50:15-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 3433322344554437 in: Card Number
+2017-04-02 04:50:16-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Hooq User Debit in: Card User
+2017-04-02 04:50:17-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 1224 in: Card Expire Date
+2017-04-02 04:50:18-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 122 in: Card CVV Number
+2017-04-02 04:50:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 04:50:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_PayTM
+2017-04-02 04:50:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 04:50:40-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-04-02 04:50:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 04:50:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 04:50:48-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 04:51:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 04:51:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:51:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:51:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 04:51:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 04:51:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:52:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:52:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:52:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 04:52:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 04:52:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:53:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:53:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:53:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:53:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 04:53:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 04:53:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:53:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:53:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:54:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 04:54:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 04:54:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:54:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:54:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:54:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:54:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 04:54:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 04:54:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:55:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:55:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:55:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 04:55:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 04:55:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:56:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:56:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:56:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:56:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 04:56:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 04:56:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:57:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:57:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:57:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 04:57:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 04:57:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:57:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:58:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:58:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 04:58:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 04:58:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 04:58:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:58:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 04:58:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_PayTM
+2017-04-02 04:58:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 04:58:48-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 04:58:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 04:58:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 04:58:57-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 04:59:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 04:59:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:59:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:59:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 04:59:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 04:59:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 04:59:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 04:59:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 04:59:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 04:59:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 04:59:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:00:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:00:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:00:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:00:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:00:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:00:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:01:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:01:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:01:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:01:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:01:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:01:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:01:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:01:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:01:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:01:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:01:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:02:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:02:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:02:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 05:02:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:02:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:02:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:03:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:03:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:03:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 05:03:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:03:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:03:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:03:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:03:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 05:03:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:03:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:04:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:04:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:04:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:04:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 05:04:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:04:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:04:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 05:05:00-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_PayTM
+2017-04-02 05:05:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 05:05:09-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinlaps01@yopmail.com in: Email Address
+2017-04-02 05:05:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 05:05:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 05:05:19-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 05:05:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 05:05:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:05:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:05:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 05:05:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:05:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:06:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:06:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:06:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:06:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:06:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:06:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:06:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:06:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:06:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:06:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:06:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:07:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:07:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:07:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:07:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:07:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:07:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:07:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:07:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:07:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:07:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:07:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:08:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:08:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:08:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 05:08:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:08:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:08:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:08:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:08:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:08:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 05:08:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:08:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:09:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:09:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:09:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 05:09:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:09:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:09:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:09:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:09:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:09:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 05:09:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on PayTM
+2017-04-02 05:09:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:10:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 05:10:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_NetBanking
+2017-04-02 05:10:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 05:10:35-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-04-02 05:10:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 05:10:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 05:10:45-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 05:11:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 05:11:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:11:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:11:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 05:11:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:11:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:11:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:12:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:12:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:12:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 05:12:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:12:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:13:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:13:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:13:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:13:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 05:13:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:13:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:14:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:14:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:14:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:14:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 05:14:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:14:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:15:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:15:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:15:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:16:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 05:16:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:16:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:16:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:16:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:16:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:16:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:17:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:17:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:17:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:17:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:17:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:17:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:17:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:18:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:18:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:18:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:18:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:19:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:19:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:19:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:19:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:19:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:19:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:19:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:20:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:20:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:20:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:20:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:20:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:20:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:20:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:21:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:21:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:21:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:21:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:21:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:21:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:21:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:22:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:22:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:22:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:22:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:22:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:22:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:22:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:23:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:23:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:23:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:23:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:23:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:23:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:23:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:24:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:24:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:24:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:24:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:24:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:24:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:25:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:25:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:25:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:25:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:25:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:25:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:25:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:26:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:26:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:26:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:26:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:26:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 05:26:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:26:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:27:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:27:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:27:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:27:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:28:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 05:28:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:28:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:28:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:28:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:28:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:28:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:29:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 05:29:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:29:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:29:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:30:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:30:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:30:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:30:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 05:30:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:30:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:30:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:31:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:31:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:31:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:31:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 05:31:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:31:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:31:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:32:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:32:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:32:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:32:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 05:32:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:32:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:32:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:33:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 05:33:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_NetBanking
+2017-04-02 05:33:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 05:33:23-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 05:33:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 05:33:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 05:33:32-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 05:33:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 05:33:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:33:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:33:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 05:33:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:33:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:34:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:34:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:34:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:34:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 05:34:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:34:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:34:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:35:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:35:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:35:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 05:35:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:35:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:35:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:36:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:36:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:36:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:36:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:36:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:36:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:36:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:37:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:37:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:37:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:37:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:37:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:37:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:37:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:37:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:37:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:37:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:37:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:37:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:37:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:38:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:38:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:38:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:38:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:38:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:38:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:38:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:38:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:39:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:39:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:39:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:39:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:39:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:39:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:39:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:40:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:40:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:40:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:40:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:40:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:40:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:40:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:41:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:41:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:41:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:41:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 05:41:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:41:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:41:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:41:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:41:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:41:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:41:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 05:41:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:41:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:42:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:42:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:42:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:42:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:42:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 05:42:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:42:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:43:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:43:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:43:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:43:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:43:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 05:43:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:43:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:43:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:49:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:49:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:49:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:49:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 05:49:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:49:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:49:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:50:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:50:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:50:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:50:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 05:50:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:50:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:50:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:50:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 05:51:05-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_NetBanking
+2017-04-02 05:51:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 05:51:07-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinlaps01@yopmail.com in: Email Address
+2017-04-02 05:51:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 05:51:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 05:51:15-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 05:51:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 05:51:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:51:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:51:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 05:51:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:51:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:51:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:52:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:52:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:52:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 05:52:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:52:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:52:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:52:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:52:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:52:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 05:53:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:53:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:53:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:53:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:53:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:53:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:53:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:53:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:53:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:53:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:54:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:54:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:54:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:54:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:54:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:54:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:54:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:55:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:55:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:55:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:55:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 05:55:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:55:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:55:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:55:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:55:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:55:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:55:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:55:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:55:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:56:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:56:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:56:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:56:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:56:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:56:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:56:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:56:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:57:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:57:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:57:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:57:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 05:57:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:57:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:57:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:58:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:58:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:58:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:58:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 05:58:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:58:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:58:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:58:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:58:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:58:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:58:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 05:58:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:58:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:59:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 05:59:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 05:59:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 05:59:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 05:59:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 05:59:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 05:59:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 05:59:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 06:00:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 06:00:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 06:00:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:00:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 06:00:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 06:00:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 06:00:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 06:01:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 06:01:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 06:01:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:01:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 06:01:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 06:01:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 06:01:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 06:01:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 06:01:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 06:01:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:01:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 06:01:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Netbanking
+2017-04-02 06:01:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment
+2017-04-02 06:02:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Make Payment Net Bank
+2017-04-02 06:02:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:02:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Support_AfterLogin
+2017-04-02 06:02:45-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Support_AfterLogin
+2017-04-02 06:02:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:02:46-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 06:02:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:02:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:02:56-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:03:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:03:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Support
+2017-04-02 06:03:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on About Us
+2017-04-02 06:03:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on FAQ
+2017-04-02 06:03:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Privacy Policy
+2017-04-02 06:03:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Terms of Use
+2017-04-02 06:04:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on About Us
+2017-04-02 06:04:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on FAQ
+2017-04-02 06:04:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Privacy Policy
+2017-04-02 06:04:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Terms of Use
+2017-04-02 06:05:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:05:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Support_AfterLogin
+2017-04-02 06:05:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:05:40-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinlaps01@yopmail.com in: Email Address
+2017-04-02 06:05:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:05:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:05:49-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:05:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:06:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Support
+2017-04-02 06:06:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on About Us
+2017-04-02 06:06:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on FAQ
+2017-04-02 06:06:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Privacy Policy
+2017-04-02 06:06:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Terms of Use
+2017-04-02 06:07:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on About Us
+2017-04-02 06:07:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on FAQ
+2017-04-02 06:07:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Privacy Policy
+2017-04-02 06:07:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Terms of Use
+2017-04-02 06:07:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:07:57-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Support_BeforeLogin
+2017-04-02 06:07:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on About Us
+2017-04-02 06:08:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on FAQ
+2017-04-02 06:08:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Privacy Policy
+2017-04-02 06:08:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Terms of Use
+2017-04-02 06:08:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Sign Up
+2017-04-02 06:08:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Skip
+2017-04-02 06:09:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Skip
+2017-04-02 06:09:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on About Us
+2017-04-02 06:09:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on FAQ
+2017-04-02 06:09:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Privacy Policy
+2017-04-02 06:09:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Terms of Use
+2017-04-02 06:10:10-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Home_Page_VerifyHomePage
+2017-04-02 06:14:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:14:20-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-04-02 06:14:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:14:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:14:29-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:14:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:16:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 06:16:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:16:17-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Home_Page_VerifyHomePage
+2017-04-02 06:20:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:20:28-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 06:20:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:20:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:20:36-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:20:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:22:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 06:22:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:22:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Home_Page_VerifyHomePage
+2017-04-02 06:26:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:26:23-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinlaps01@yopmail.com in: Email Address
+2017-04-02 06:26:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:26:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:26:32-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:26:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:27:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 06:28:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:28:10-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Home_Page_VerifyHomePage
+2017-04-02 06:32:27-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Home_Page_VerifyBanner
+2017-04-02 06:32:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:32:29-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-04-02 06:32:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:34:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:34:38-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:35:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:35:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:35:18-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Home_Page_VerifyBanner
+2017-04-02 06:35:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:35:24-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 06:35:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:35:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:35:32-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:35:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:35:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:36:04-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Home_Page_VerifyBanner
+2017-04-02 06:36:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:36:06-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinlaps01@yopmail.com in: Email Address
+2017-04-02 06:36:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:36:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:36:20-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinlaps01@yopmail.com in: Email Address
+2017-04-02 06:36:21-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:36:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:36:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:36:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Home_Page_VerifyBanner
+2017-04-02 06:36:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Sign Up
+2017-04-02 06:36:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Skip
+2017-04-02 06:36:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Skip
+2017-04-02 06:37:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Login_Email_Login
+2017-04-02 06:37:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:37:15-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 06:37:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:37:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:37:25-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:37:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:37:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:37:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Login_Email_Login
+2017-04-02 06:37:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:37:54-main--INFO -com.ctaf.accelerators.TestEngine:Entered value invalidhooqemail@cigniti.com in: Email Address
+2017-04-02 06:37:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:38:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Login_Email_Login
+2017-04-02 06:38:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:38:13-main--INFO -com.ctaf.accelerators.TestEngine:Entered value AAA in: Email Address
+2017-04-02 06:38:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:38:24-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Login_Email_Login
+2017-04-02 06:38:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:38:25-main--INFO -com.ctaf.accelerators.TestEngine:Entered value AAA@ in: Email Address
+2017-04-02 06:38:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:38:36-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Login_Email_Login
+2017-04-02 06:38:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:38:38-main--INFO -com.ctaf.accelerators.TestEngine:Entered value AAA. in: Email Address
+2017-04-02 06:38:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:38:49-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Login_Email_Login
+2017-04-02 06:38:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:38:51-main--INFO -com.ctaf.accelerators.TestEngine:Entered value %^$%^@&^.&%^ in: Email Address
+2017-04-02 06:38:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:39:02-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Login_Email_Login
+2017-04-02 06:39:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:39:04-main--INFO -com.ctaf.accelerators.TestEngine:Entered value %%%%^@ in: Email Address
+2017-04-02 06:39:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:39:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Login_Email_Login
+2017-04-02 06:39:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:39:16-main--INFO -com.ctaf.accelerators.TestEngine:Entered value &^^&&. in: Email Address
+2017-04-02 06:39:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:39:26-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Login_Email_Login
+2017-04-02 06:39:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:39:28-main--INFO -com.ctaf.accelerators.TestEngine:Entered value &^%%$% in: Email Address
+2017-04-02 06:39:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:39:39-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Login_Email_Login
+2017-04-02 06:39:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:39:41-main--INFO -com.ctaf.accelerators.TestEngine:Entered value       .      in: Email Address
+2017-04-02 06:39:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:39:51-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Login_Email_Login
+2017-04-02 06:39:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:39:53-main--INFO -com.ctaf.accelerators.TestEngine:Entered value      @      in: Email Address
+2017-04-02 06:39:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:40:04-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Login_Email_Login
+2017-04-02 06:40:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:40:05-main--INFO -com.ctaf.accelerators.TestEngine:Entered value     @   .    in: Email Address
+2017-04-02 06:40:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:40:19-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Login_Email_Login
+2017-04-02 06:40:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:40:24-main--INFO -com.ctaf.accelerators.TestEngine:Entered value         in: Email Address
+2017-04-02 06:40:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:40:35-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_FaceBookLogin
+2017-04-02 06:40:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:40:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Login with Facebook
+2017-04-02 06:40:53-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_Search
+2017-04-02 06:40:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:40:58-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-04-02 06:41:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:41:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:41:08-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:41:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:41:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 06:41:37-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Flash in: Search Textbox
+2017-04-02 06:41:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Flash
+2017-04-02 06:42:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-04-02 06:42:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:42:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_Search
+2017-04-02 06:42:21-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_Search
+2017-04-02 06:42:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:42:23-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 06:42:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:42:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:42:33-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:42:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:42:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 06:42:51-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Flash in: Search Textbox
+2017-04-02 06:42:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Flash
+2017-04-02 06:43:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-04-02 06:43:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:43:20-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_Search
+2017-04-02 06:43:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Sign Up
+2017-04-02 06:43:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Skip
+2017-04-02 06:43:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Skip
+2017-04-02 06:43:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-04-02 06:43:36-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Flash in: Search Textbox
+2017-04-02 06:43:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Flash
+2017-04-02 06:43:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-04-02 06:43:53-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Settings
+2017-04-02 06:43:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:43:54-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-04-02 06:43:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:44:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:44:03-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:44:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:44:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Settings
+2017-04-02 06:44:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-04-02 06:45:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-04-02 06:45:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-04-02 06:45:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-04-02 06:46:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:46:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Settings
+2017-04-02 06:46:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:46:15-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 06:46:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:46:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:46:23-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:46:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:46:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Settings
+2017-04-02 06:46:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-04-02 06:47:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-04-02 06:47:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-04-02 06:47:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-04-02 06:48:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:48:45-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Settings
+2017-04-02 06:48:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:48:53-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinlaps01@yopmail.com in: Email Address
+2017-04-02 06:48:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:49:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:49:04-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:49:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:49:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Settings
+2017-04-02 06:49:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-04-02 06:49:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-04-02 06:50:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-04-02 06:50:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-04-02 06:50:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:50:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_Subscription_VOUCHER_CODE_REDEMPTION
+2017-04-02 06:50:58-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_Subscription_VOUCHER_CODE_REDEMPTION
+2017-04-02 06:50:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:51:00-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 06:51:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:51:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:51:08-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:51:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:51:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 06:51:25-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456789 in: Invalid voucher Code
+2017-04-02 06:51:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Voucher code submission
+2017-04-02 06:51:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:51:39-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_Subscription_VOUCHER_CODE_REDEMPTION
+2017-04-02 06:51:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:51:44-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinlaps01@yopmail.com in: Email Address
+2017-04-02 06:51:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:51:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:51:53-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:52:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:52:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 06:52:05-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456789 in: Invalid voucher Code
+2017-04-02 06:52:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Voucher code submission
+2017-04-02 06:52:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:52:16-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CheckingPaymentPlan
+2017-04-02 06:52:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:52:17-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinlaps01@yopmail.com in: Email Address
+2017-04-02 06:52:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:52:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:52:26-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:52:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:52:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 06:52:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 06:52:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 06:52:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:52:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 06:52:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:52:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 06:52:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:52:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 06:53:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:53:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 06:53:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:53:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 06:53:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:53:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 06:53:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:53:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 06:53:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:53:17-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 06:53:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:53:39-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CheckingPaymentPlan
+2017-04-02 06:53:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:53:41-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 06:53:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:53:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:53:49-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:54:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:54:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-04-02 06:54:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-04-02 06:54:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-04-02 06:54:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:54:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 06:54:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:54:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-04-02 06:54:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:54:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 06:54:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:54:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-04-02 06:54:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:54:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 06:54:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:54:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-04-02 06:54:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:54:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 06:55:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-04-02 06:55:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-04-02 06:55:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 06:55:21-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CheckingPaymentPlan
+2017-04-02 06:55:28-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_FavoriteHomePage
+2017-04-02 06:55:36-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_FavoriteHomePage
+2017-04-02 06:55:44-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_FavoriteHomePage
+2017-04-02 06:55:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_WatchLaterHomePage
+2017-04-02 06:55:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 06:55:56-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Cigniinfree01@yopmail.com in: Email Address
+2017-04-02 06:55:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 06:56:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 06:56:05-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 06:56:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 06:56:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-04-02 06:58:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-04-02 06:58:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 06:58:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Later
+2017-04-02 06:58:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 06:59:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-04-02 07:00:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 07:00:32-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_WatchLaterHomePage
+2017-04-02 07:00:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 07:00:33-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinacti01@yopmail.com in: Email Address
+2017-04-02 07:00:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 07:00:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 07:00:42-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 07:00:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 07:00:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-04-02 07:02:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-04-02 07:02:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 07:02:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Later
+2017-04-02 07:03:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 07:03:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-04-02 07:04:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-04-02 07:04:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_WatchLaterHomePage
+2017-04-02 07:04:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-04-02 07:04:41-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigniinlaps01@yopmail.com in: Email Address
+2017-04-02 07:04:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-04-02 07:04:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Enter Pasword
+2017-04-02 07:04:53-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456 in: Enter Password
+2017-04-02 07:05:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on OK
+2017-04-02 07:05:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-04-02 07:06:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-04-02 07:06:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 07:06:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Later
+2017-04-02 07:07:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-04-02 07:07:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-04-02 07:08:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out

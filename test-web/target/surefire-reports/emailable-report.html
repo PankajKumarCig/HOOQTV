@@ -1,0 +1,1837 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Grouping</td><td class="numi">53</td><td class="numi">28</td><td class="numi">0</td><td class="numi_attn">85</td><td class="numi">14,953.0 seconds</td><td class="numi">web </td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Grouping &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage</td><td><a href="#m1"><b>HOOQ_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">3</td><td>1493681455417</td><td class="numi">1197293</td></tr><tr class="failedodd"><td><a href="#m2"><b>HOOQ_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">3</td><td>1493681455417</td><td class="numi">1197293</td></tr><tr class="failedodd"><td><a href="#m3"><b>HOOQ_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">3</td><td>1493681455417</td><td class="numi">1197293</td></tr><tr class="failedodd"><td><a href="#m4"><b>HOOQ_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">3</td><td>1493681455417</td><td class="numi">1197293</td></tr>
+<tr class="failedeven"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_ConitnueWatching</td><td><a href="#m5"><b>HOOQ_Web_ConitnueWatching</b> (web) </a></td><td class="numi">1</td><td>1493682701519</td><td class="numi">203937</td></tr>
+<tr class="failedodd"><td rowspan="3">tv.hooq.web.scripts.HOOQ_Web_FAQ_Search</td><td><a href="#m6"><b>HOOQ_Web_FAQ_Search</b> (web) </a></td><td class="numi">3</td><td>1493682937397</td><td class="numi">446629</td></tr><tr class="failedodd"><td><a href="#m7"><b>HOOQ_Web_FAQ_Search</b> (web) </a></td><td class="numi">3</td><td>1493682937397</td><td class="numi">446629</td></tr><tr class="failedodd"><td><a href="#m8"><b>HOOQ_Web_FAQ_Search</b> (web) </a></td><td class="numi">3</td><td>1493682937397</td><td class="numi">446629</td></tr>
+<tr class="failedeven"><td rowspan="3">tv.hooq.web.scripts.HOOQ_Web_FAQLink</td><td><a href="#m9"><b>HOOQ_Web_FAQLink</b> (web) </a></td><td class="numi">3</td><td>1493683396739</td><td class="numi">439002</td></tr><tr class="failedeven"><td><a href="#m10"><b>HOOQ_Web_FAQLink</b> (web) </a></td><td class="numi">3</td><td>1493683396739</td><td class="numi">439002</td></tr><tr class="failedeven"><td><a href="#m11"><b>HOOQ_Web_FAQLink</b> (web) </a></td><td class="numi">3</td><td>1493683396739</td><td class="numi">439002</td></tr>
+<tr class="failedodd"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag</td><td><a href="#m12"><b>HOOQ_Web_TVOD_Rent_Flag</b> (web) </a></td><td class="numi">3</td><td>1493683842746</td><td class="numi">450265</td></tr><tr class="failedodd"><td><a href="#m13"><b>HOOQ_Web_TVOD_Rent_Flag</b> (web) </a></td><td class="numi">3</td><td>1493683842746</td><td class="numi">450265</td></tr><tr class="failedodd"><td><a href="#m14"><b>HOOQ_Web_TVOD_Rent_Flag</b> (web) </a></td><td class="numi">3</td><td>1493683842746</td><td class="numi">450265</td></tr><tr class="failedodd"><td><a href="#m15"><b>HOOQ_Web_TVOD_Rent_Flag</b> (web) </a></td><td class="numi">3</td><td>1493683842746</td><td class="numi">450265</td></tr>
+<tr class="failedeven"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition</td><td><a href="#m16"><b>HOOQ_Web_TVOD_Rent_Terms_And_Condition</b> (web) </a></td><td class="numi">3</td><td>1493686093793</td><td class="numi">457820</td></tr><tr class="failedeven"><td><a href="#m17"><b>HOOQ_Web_TVOD_Rent_Terms_And_Condition</b> (web) </a></td><td class="numi">3</td><td>1493686093793</td><td class="numi">457820</td></tr><tr class="failedeven"><td><a href="#m18"><b>HOOQ_Web_TVOD_Rent_Terms_And_Condition</b> (web) </a></td><td class="numi">3</td><td>1493686093793</td><td class="numi">457820</td></tr><tr class="failedeven"><td><a href="#m19"><b>HOOQ_Web_TVOD_Rent_Terms_And_Condition</b> (web) </a></td><td class="numi">3</td><td>1493686093793</td><td class="numi">457820</td></tr>
+<tr class="failedodd"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_GetStarted_All_Users</td><td><a href="#m20"><b>HOOQ_Web_GetStarted_All_Users</b> (web) </a></td><td class="numi">1</td><td>1493686782051</td><td class="numi">166733</td></tr>
+<tr class="failedeven"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner</td><td><a href="#m21"><b>HOOQ_Web_Home_Page_VerifyBanner</b> (web) </a></td><td class="numi">3</td><td>1493686955707</td><td class="numi">627897</td></tr><tr class="failedeven"><td><a href="#m22"><b>HOOQ_Web_Home_Page_VerifyBanner</b> (web) </a></td><td class="numi">3</td><td>1493686955707</td><td class="numi">627897</td></tr><tr class="failedeven"><td><a href="#m23"><b>HOOQ_Web_Home_Page_VerifyBanner</b> (web) </a></td><td class="numi">3</td><td>1493686955707</td><td class="numi">627897</td></tr><tr class="failedeven"><td><a href="#m24"><b>HOOQ_Web_Home_Page_VerifyBanner</b> (web) </a></td><td class="numi">3</td><td>1493686955707</td><td class="numi">627897</td></tr>
+<tr class="failedodd"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse</td><td><a href="#m25"><b>HOOQ_Web_Home_Page_VerifyBrowse</b> (web) </a></td><td class="numi">3</td><td>1493687621650</td><td class="numi">626725</td></tr><tr class="failedodd"><td><a href="#m26"><b>HOOQ_Web_Home_Page_VerifyBrowse</b> (web) </a></td><td class="numi">3</td><td>1493687621650</td><td class="numi">626725</td></tr><tr class="failedodd"><td><a href="#m27"><b>HOOQ_Web_Home_Page_VerifyBrowse</b> (web) </a></td><td class="numi">3</td><td>1493687621650</td><td class="numi">626725</td></tr><tr class="failedodd"><td><a href="#m28"><b>HOOQ_Web_Home_Page_VerifyBrowse</b> (web) </a></td><td class="numi">3</td><td>1493687621650</td><td class="numi">626725</td></tr>
+<tr class="failedeven"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage</td><td><a href="#m29"><b>HOOQ_Web_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">3</td><td>1493688284036</td><td class="numi">1189599</td></tr><tr class="failedeven"><td><a href="#m30"><b>HOOQ_Web_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">3</td><td>1493688284036</td><td class="numi">1189599</td></tr><tr class="failedeven"><td><a href="#m31"><b>HOOQ_Web_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">3</td><td>1493688284036</td><td class="numi">1189599</td></tr><tr class="failedeven"><td><a href="#m32"><b>HOOQ_Web_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">3</td><td>1493688284036</td><td class="numi">1189599</td></tr>
+<tr class="failedodd"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_Login_Email_HaveAccount</td><td><a href="#m33"><b>HOOQ_Web_Login_Email_HaveAccount</b> (web) </a></td><td class="numi">1</td><td>1493689513722</td><td class="numi">153920</td></tr>
+<tr class="failedeven"><td rowspan="13">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login</td><td><a href="#m34"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">1</td><td>1493689691487</td><td class="numi">138185</td></tr><tr class="failedeven"><td><a href="#m35"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">1</td><td>1493689691487</td><td class="numi">138185</td></tr><tr class="failedeven"><td><a href="#m36"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">1</td><td>1493689691487</td><td class="numi">138185</td></tr><tr class="failedeven"><td><a href="#m37"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">1</td><td>1493689691487</td><td class="numi">138185</td></tr><tr class="failedeven"><td><a href="#m38"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">1</td><td>1493689691487</td><td class="numi">138185</td></tr><tr class="failedeven"><td><a href="#m39"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">1</td><td>1493689691487</td><td class="numi">138185</td></tr><tr class="failedeven"><td><a href="#m40"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">1</td><td>1493689691487</td><td class="numi">138185</td></tr><tr class="failedeven"><td><a href="#m41"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">1</td><td>1493689691487</td><td class="numi">138185</td></tr><tr class="failedeven"><td><a href="#m42"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">1</td><td>1493689691487</td><td class="numi">138185</td></tr><tr class="failedeven"><td><a href="#m43"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">1</td><td>1493689691487</td><td class="numi">138185</td></tr><tr class="failedeven"><td><a href="#m44"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">1</td><td>1493689691487</td><td class="numi">138185</td></tr><tr class="failedeven"><td><a href="#m45"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">1</td><td>1493689691487</td><td class="numi">138185</td></tr><tr class="failedeven"><td><a href="#m46"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">1</td><td>1493689691487</td><td class="numi">138185</td></tr>
+<tr class="failedodd"><td rowspan="5">tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER</td><td><a href="#m47"><b>HOOQ_Web_PickYourPlan_ALL_USER</b> (web) </a></td><td class="numi">5</td><td>1493690173769</td><td class="numi">715422</td></tr><tr class="failedodd"><td><a href="#m48"><b>HOOQ_Web_PickYourPlan_ALL_USER</b> (web) </a></td><td class="numi">5</td><td>1493690173769</td><td class="numi">715422</td></tr><tr class="failedodd"><td><a href="#m49"><b>HOOQ_Web_PickYourPlan_ALL_USER</b> (web) </a></td><td class="numi">5</td><td>1493690173769</td><td class="numi">715422</td></tr><tr class="failedodd"><td><a href="#m50"><b>HOOQ_Web_PickYourPlan_ALL_USER</b> (web) </a></td><td class="numi">5</td><td>1493690173769</td><td class="numi">715422</td></tr><tr class="failedodd"><td><a href="#m51"><b>HOOQ_Web_PickYourPlan_ALL_USER</b> (web) </a></td><td class="numi">5</td><td>1493690173769</td><td class="numi">715422</td></tr>
+<tr class="failedeven"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback</td><td><a href="#m52"><b>HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback</b> (web) </a></td><td class="numi">1</td><td>1493690903938</td><td class="numi">184857</td></tr>
+<tr class="failedodd"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback</td><td><a href="#m53"><b>HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback</b> (web) </a></td><td class="numi">1</td><td>1493691148734</td><td class="numi">144269</td></tr>
+<tr class="failedeven"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback</td><td><a href="#m54"><b>HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback</b> (web) </a></td><td class="numi">1</td><td>1493691299946</td><td class="numi">136123</td></tr>
+<tr class="failedodd"><td rowspan="2">tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess</td><td><a href="#m55"><b>HOOQ_Web_Player_Settings_UserAccess</b> (web) </a></td><td class="numi">2</td><td>1493691442915</td><td class="numi">283511</td></tr><tr class="failedodd"><td><a href="#m56"><b>HOOQ_Web_Player_Settings_UserAccess</b> (web) </a></td><td class="numi">2</td><td>1493691442915</td><td class="numi">283511</td></tr>
+<tr class="failedeven"><td rowspan="3">tv.hooq.web.scripts.HOOQ_Web_PlayerSettings</td><td><a href="#m57"><b>HOOQ_Web_PlayerSettings</b> (web) </a></td><td class="numi">3</td><td>1493691733384</td><td class="numi">438017</td></tr><tr class="failedeven"><td><a href="#m58"><b>HOOQ_Web_PlayerSettings</b> (web) </a></td><td class="numi">3</td><td>1493691733384</td><td class="numi">438017</td></tr><tr class="failedeven"><td><a href="#m59"><b>HOOQ_Web_PlayerSettings</b> (web) </a></td><td class="numi">3</td><td>1493691733384</td><td class="numi">438017</td></tr>
+<tr class="failedodd"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails</td><td><a href="#m60"><b>HOOQ_Web_Search_ContentDetails</b> (web) </a></td><td class="numi">3</td><td>1493692178436</td><td class="numi">455718</td></tr><tr class="failedodd"><td><a href="#m61"><b>HOOQ_Web_Search_ContentDetails</b> (web) </a></td><td class="numi">3</td><td>1493692178436</td><td class="numi">455718</td></tr><tr class="failedodd"><td><a href="#m62"><b>HOOQ_Web_Search_ContentDetails</b> (web) </a></td><td class="numi">3</td><td>1493692178436</td><td class="numi">455718</td></tr><tr class="failedodd"><td><a href="#m63"><b>HOOQ_Web_Search_ContentDetails</b> (web) </a></td><td class="numi">3</td><td>1493692178436</td><td class="numi">455718</td></tr>
+<tr class="failedeven"><td rowspan="3">tv.hooq.web.scripts.HOOQ_Web_Settings</td><td><a href="#m64"><b>HOOQ_Web_Settings</b> (web) </a></td><td class="numi">3</td><td>1493692755675</td><td class="numi">430371</td></tr><tr class="failedeven"><td><a href="#m65"><b>HOOQ_Web_Settings</b> (web) </a></td><td class="numi">3</td><td>1493692755675</td><td class="numi">430371</td></tr><tr class="failedeven"><td><a href="#m66"><b>HOOQ_Web_Settings</b> (web) </a></td><td class="numi">3</td><td>1493692755675</td><td class="numi">430371</td></tr>
+<tr class="failedodd"><td rowspan="3">tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin</td><td><a href="#m67"><b>HOOQ_Web_Support_AfterLogin</b> (web) </a></td><td class="numi">3</td><td>1493693295732</td><td class="numi">453321</td></tr><tr class="failedodd"><td><a href="#m68"><b>HOOQ_Web_Support_AfterLogin</b> (web) </a></td><td class="numi">3</td><td>1493693295732</td><td class="numi">453321</td></tr><tr class="failedodd"><td><a href="#m69"><b>HOOQ_Web_Support_AfterLogin</b> (web) </a></td><td class="numi">3</td><td>1493693295732</td><td class="numi">453321</td></tr>
+<tr class="failedeven"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC</td><td><a href="#m70"><b>HOOQ_Web_TVOD_Rent_With_CC</b> (web) </a></td><td class="numi">3</td><td>1493693897415</td><td class="numi">452084</td></tr><tr class="failedeven"><td><a href="#m71"><b>HOOQ_Web_TVOD_Rent_With_CC</b> (web) </a></td><td class="numi">3</td><td>1493693897415</td><td class="numi">452084</td></tr><tr class="failedeven"><td><a href="#m72"><b>HOOQ_Web_TVOD_Rent_With_CC</b> (web) </a></td><td class="numi">3</td><td>1493693897415</td><td class="numi">452084</td></tr><tr class="failedeven"><td><a href="#m73"><b>HOOQ_Web_TVOD_Rent_With_CC</b> (web) </a></td><td class="numi">3</td><td>1493693897415</td><td class="numi">452084</td></tr>
+<tr class="failedodd"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_Ticket</td><td><a href="#m74"><b>HOOQ_Web_TVOD_Rent_With_Ticket</b> (web) </a></td><td class="numi">1</td><td>1493694551384</td><td class="numi">137460</td></tr>
+<tr class="failedeven"><td rowspan="2">tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite</td><td><a href="#m75"><b>HOOQ_Web_Verify_Favorite</b> (web) </a></td><td class="numi">2</td><td>1493694695938</td><td class="numi">284693</td></tr><tr class="failedeven"><td><a href="#m76"><b>HOOQ_Web_Verify_Favorite</b> (web) </a></td><td class="numi">2</td><td>1493694695938</td><td class="numi">284693</td></tr>
+<tr class="failedodd"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_From_History</td><td><a href="#m77"><b>HOOQ_Web_Verify_PlayBack_From_History</b> (web) </a></td><td class="numi">1</td><td>1493694987466</td><td class="numi">142209</td></tr>
+<tr class="failedeven"><td rowspan="3">tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite</td><td><a href="#m78"><b>HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite</b> (web) </a></td><td class="numi">3</td><td>1493695139660</td><td class="numi">435825</td></tr><tr class="failedeven"><td><a href="#m79"><b>HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite</b> (web) </a></td><td class="numi">3</td><td>1493695139660</td><td class="numi">435825</td></tr><tr class="failedeven"><td><a href="#m80"><b>HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite</b> (web) </a></td><td class="numi">3</td><td>1493695139660</td><td class="numi">435825</td></tr>
+<tr class="failedodd"><td rowspan="3">tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher</td><td><a href="#m81"><b>HOOQ_Web_Verify_Voucher</b> (web) </a></td><td class="numi">3</td><td>1493695648951</td><td class="numi">429690</td></tr><tr class="failedodd"><td><a href="#m82"><b>HOOQ_Web_Verify_Voucher</b> (web) </a></td><td class="numi">3</td><td>1493695648951</td><td class="numi">429690</td></tr><tr class="failedodd"><td><a href="#m83"><b>HOOQ_Web_Verify_Voucher</b> (web) </a></td><td class="numi">3</td><td>1493695648951</td><td class="numi">429690</td></tr>
+<tr class="failedeven"><td rowspan="2">tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater</td><td><a href="#m84"><b>HOOQ_Web_Verify_WatchLater</b> (web) </a></td><td class="numi">2</td><td>1493696085351</td><td class="numi">294093</td></tr><tr class="failedeven"><td><a href="#m85"><b>HOOQ_Web_Verify_WatchLater</b> (web) </a></td><td class="numi">2</td><td>1493696085351</td><td class="numi">294093</td></tr>
+<tr><th colspan="4">Grouping &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage</td><td><a href="#m86"><b>HOOQ_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">1</td><td>1493682659541</td><td class="numi">31764</td></tr><tr class="passedodd"><td><a href="#m87"><b>HOOQ_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">1</td><td>1493682659541</td><td class="numi">31764</td></tr><tr class="passedodd"><td><a href="#m88"><b>HOOQ_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">1</td><td>1493682659541</td><td class="numi">31764</td></tr><tr class="passedodd"><td><a href="#m89"><b>HOOQ_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">1</td><td>1493682659541</td><td class="numi">31764</td></tr>
+<tr class="passedeven"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_FaceBookLogin</td><td><a href="#m90"><b>HOOQ_Web_FaceBookLogin</b> (web) </a></td><td class="numi">1</td><td>1493682920701</td><td class="numi">8642</td></tr>
+<tr class="passedodd"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag</td><td><a href="#m91"><b>HOOQ_Web_TVOD_Rent_Flag</b> (web) </a></td><td class="numi">1</td><td>1493684300207</td><td class="numi">1784174</td></tr><tr class="passedodd"><td><a href="#m92"><b>HOOQ_Web_TVOD_Rent_Flag</b> (web) </a></td><td class="numi">1</td><td>1493684300207</td><td class="numi">1784174</td></tr><tr class="passedodd"><td><a href="#m93"><b>HOOQ_Web_TVOD_Rent_Flag</b> (web) </a></td><td class="numi">1</td><td>1493684300207</td><td class="numi">1784174</td></tr><tr class="passedodd"><td><a href="#m94"><b>HOOQ_Web_TVOD_Rent_Flag</b> (web) </a></td><td class="numi">1</td><td>1493684300207</td><td class="numi">1784174</td></tr>
+<tr class="passedeven"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition</td><td><a href="#m95"><b>HOOQ_Web_TVOD_Rent_Terms_And_Condition</b> (web) </a></td><td class="numi">1</td><td>1493686558809</td><td class="numi">193840</td></tr><tr class="passedeven"><td><a href="#m96"><b>HOOQ_Web_TVOD_Rent_Terms_And_Condition</b> (web) </a></td><td class="numi">1</td><td>1493686558809</td><td class="numi">193840</td></tr><tr class="passedeven"><td><a href="#m97"><b>HOOQ_Web_TVOD_Rent_Terms_And_Condition</b> (web) </a></td><td class="numi">1</td><td>1493686558809</td><td class="numi">193840</td></tr><tr class="passedeven"><td><a href="#m98"><b>HOOQ_Web_TVOD_Rent_Terms_And_Condition</b> (web) </a></td><td class="numi">1</td><td>1493686558809</td><td class="numi">193840</td></tr>
+<tr class="passedodd"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_GeoLocation</td><td><a href="#m99"><b>HOOQ_Web_GeoLocation</b> (web) </a></td><td class="numi">1</td><td>1493686762249</td><td class="numi">13174</td></tr>
+<tr class="passedeven"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner</td><td><a href="#m100"><b>HOOQ_Web_Home_Page_VerifyBanner</b> (web) </a></td><td class="numi">1</td><td>1493687590383</td><td class="numi">24409</td></tr><tr class="passedeven"><td><a href="#m101"><b>HOOQ_Web_Home_Page_VerifyBanner</b> (web) </a></td><td class="numi">1</td><td>1493687590383</td><td class="numi">24409</td></tr><tr class="passedeven"><td><a href="#m102"><b>HOOQ_Web_Home_Page_VerifyBanner</b> (web) </a></td><td class="numi">1</td><td>1493687590383</td><td class="numi">24409</td></tr><tr class="passedeven"><td><a href="#m103"><b>HOOQ_Web_Home_Page_VerifyBanner</b> (web) </a></td><td class="numi">1</td><td>1493687590383</td><td class="numi">24409</td></tr>
+<tr class="passedodd"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse</td><td><a href="#m104"><b>HOOQ_Web_Home_Page_VerifyBrowse</b> (web) </a></td><td class="numi">1</td><td>1493688255488</td><td class="numi">22043</td></tr><tr class="passedodd"><td><a href="#m105"><b>HOOQ_Web_Home_Page_VerifyBrowse</b> (web) </a></td><td class="numi">1</td><td>1493688255488</td><td class="numi">22043</td></tr><tr class="passedodd"><td><a href="#m106"><b>HOOQ_Web_Home_Page_VerifyBrowse</b> (web) </a></td><td class="numi">1</td><td>1493688255488</td><td class="numi">22043</td></tr><tr class="passedodd"><td><a href="#m107"><b>HOOQ_Web_Home_Page_VerifyBrowse</b> (web) </a></td><td class="numi">1</td><td>1493688255488</td><td class="numi">22043</td></tr>
+<tr class="passedeven"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage</td><td><a href="#m108"><b>HOOQ_Web_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">1</td><td>1493689480536</td><td class="numi">27026</td></tr><tr class="passedeven"><td><a href="#m109"><b>HOOQ_Web_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">1</td><td>1493689480536</td><td class="numi">27026</td></tr><tr class="passedeven"><td><a href="#m110"><b>HOOQ_Web_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">1</td><td>1493689480536</td><td class="numi">27026</td></tr><tr class="passedeven"><td><a href="#m111"><b>HOOQ_Web_Home_Page_VerifyHomePage</b> (web) </a></td><td class="numi">1</td><td>1493689480536</td><td class="numi">27026</td></tr>
+<tr class="passedodd"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_Login_Email_InvalidMobile_No</td><td><a href="#m112"><b>HOOQ_Web_Login_Email_InvalidMobile_No</b> (web) </a></td><td class="numi">1</td><td>1493689675060</td><td class="numi">10009</td></tr>
+<tr class="passedeven"><td rowspan="13">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login</td><td><a href="#m113"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">12</td><td>1493689836684</td><td class="numi">135917</td></tr><tr class="passedeven"><td><a href="#m114"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">12</td><td>1493689836684</td><td class="numi">135917</td></tr><tr class="passedeven"><td><a href="#m115"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">12</td><td>1493689836684</td><td class="numi">135917</td></tr><tr class="passedeven"><td><a href="#m116"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">12</td><td>1493689836684</td><td class="numi">135917</td></tr><tr class="passedeven"><td><a href="#m117"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">12</td><td>1493689836684</td><td class="numi">135917</td></tr><tr class="passedeven"><td><a href="#m118"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">12</td><td>1493689836684</td><td class="numi">135917</td></tr><tr class="passedeven"><td><a href="#m119"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">12</td><td>1493689836684</td><td class="numi">135917</td></tr><tr class="passedeven"><td><a href="#m120"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">12</td><td>1493689836684</td><td class="numi">135917</td></tr><tr class="passedeven"><td><a href="#m121"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">12</td><td>1493689836684</td><td class="numi">135917</td></tr><tr class="passedeven"><td><a href="#m122"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">12</td><td>1493689836684</td><td class="numi">135917</td></tr><tr class="passedeven"><td><a href="#m123"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">12</td><td>1493689836684</td><td class="numi">135917</td></tr><tr class="passedeven"><td><a href="#m124"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">12</td><td>1493689836684</td><td class="numi">135917</td></tr><tr class="passedeven"><td><a href="#m125"><b>HOOQ_Web_Login_Email_Login</b> (web) </a></td><td class="numi">12</td><td>1493689836684</td><td class="numi">135917</td></tr>
+<tr class="passedodd"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_Login_ResendEmail</td><td><a href="#m126"><b>HOOQ_Web_Login_ResendEmail</b> (web) </a></td><td class="numi">1</td><td>1493689987185</td><td class="numi">179565</td></tr>
+<tr class="passedeven"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_Player_Settings_AnnonymousUserAttemptingContentPlayback</td><td><a href="#m127"><b>HOOQ_Web_Player_Settings_AnnonymousUserAttemptingContentPlayback</b> (web) </a></td><td class="numi">1</td><td>1493691095906</td><td class="numi">46228</td></tr>
+<tr class="passedodd"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails</td><td><a href="#m128"><b>HOOQ_Web_Search_ContentDetails</b> (web) </a></td><td class="numi">1</td><td>1493692640739</td><td class="numi">105399</td></tr><tr class="passedodd"><td><a href="#m129"><b>HOOQ_Web_Search_ContentDetails</b> (web) </a></td><td class="numi">1</td><td>1493692640739</td><td class="numi">105399</td></tr><tr class="passedodd"><td><a href="#m130"><b>HOOQ_Web_Search_ContentDetails</b> (web) </a></td><td class="numi">1</td><td>1493692640739</td><td class="numi">105399</td></tr><tr class="passedodd"><td><a href="#m131"><b>HOOQ_Web_Search_ContentDetails</b> (web) </a></td><td class="numi">1</td><td>1493692640739</td><td class="numi">105399</td></tr>
+<tr class="passedeven"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_Signup_Geolocation</td><td><a href="#m132"><b>HOOQ_Web_Signup_Geolocation</b> (web) </a></td><td class="numi">1</td><td>1493693196067</td><td class="numi">6124</td></tr>
+<tr class="passedodd"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_SignUPTermsAndConditionPrivacyPolicy</td><td><a href="#m133"><b>HOOQ_Web_SignUPTermsAndConditionPrivacyPolicy</b> (web) </a></td><td class="numi">1</td><td>1493693209104</td><td class="numi">76971</td></tr>
+<tr class="passedeven"><td rowspan="1">tv.hooq.web.scripts.HOOQ_Web_Support_BeforeLogin</td><td><a href="#m134"><b>HOOQ_Web_Support_BeforeLogin</b> (web) </a></td><td class="numi">1</td><td>1493693755826</td><td class="numi">134707</td></tr>
+<tr class="passedodd"><td rowspan="4">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC</td><td><a href="#m135"><b>HOOQ_Web_TVOD_Rent_With_CC</b> (web) </a></td><td class="numi">1</td><td>1493694356227</td><td class="numi">188110</td></tr><tr class="passedodd"><td><a href="#m136"><b>HOOQ_Web_TVOD_Rent_With_CC</b> (web) </a></td><td class="numi">1</td><td>1493694356227</td><td class="numi">188110</td></tr><tr class="passedodd"><td><a href="#m137"><b>HOOQ_Web_TVOD_Rent_With_CC</b> (web) </a></td><td class="numi">1</td><td>1493694356227</td><td class="numi">188110</td></tr><tr class="passedodd"><td><a href="#m138"><b>HOOQ_Web_TVOD_Rent_With_CC</b> (web) </a></td><td class="numi">1</td><td>1493694356227</td><td class="numi">188110</td></tr>
+</table>
+<h1>Grouping</h1>
+<h2 id="m1">tv.hooq.web.scripts.HOOQ_Web_Login_Email_HaveAccount:HOOQ_Web_Login_Email_HaveAccount</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>existing</td>
+<td>Verifying login scenarios for IN_EXISTING_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Login_Email_HaveAccount.HOOQ_Web_Login_Email_HaveAccount(HOOQ_Web_Login_Email_HaveAccount.java:32)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite:HOOQ_Web_Verify_Favorite</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying HOOQ_Verify_FavoriteHomePage scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageBannerFavorite(HOOQWorkflows.java:7572)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite.HOOQ_Web_Verify_Favorite(HOOQ_Web_Verify_Favorite.java:33)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin:HOOQ_Web_Support_AfterLogin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying HOOQ Support After Login for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySupport(HOOQWorkflows.java:1333)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin.HOOQ_Web_Support_AfterLogin(HOOQ_Web_Support_AfterLogin.java:34)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag:HOOQ_Web_TVOD_Rent_Flag</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying Rental Callout Flag scenarios for IN_LAPSED_USER</td>
+<td>INR 150</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnGoToRent(HOOQWorkflows.java:5111)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnGetRentedMovieCollectionName(HOOQWorkflows.java:5136)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag.HOOQ_Web_TVOD_Rent_Flag(HOOQ_Web_TVOD_Rent_Flag.java:47)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">tv.hooq.web.scripts.HOOQ_Web_ConitnueWatching:HOOQ_Web_ConitnueWatching</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>new</td>
+<td>FREE</td>
+<td>DUPLEX</td>
+<td>Verifying ConitnueWatching scenario for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_ConitnueWatching.HOOQ_Web_ConitnueWatching(HOOQ_Web_ConitnueWatching.java:33)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">tv.hooq.web.scripts.HOOQ_Web_FAQLink:HOOQ_Web_FAQLink</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying Link scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQLinkPage(HOOQWorkflows.java:7756)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_FAQLink.HOOQ_Web_FAQLink(HOOQ_Web_FAQLink.java:32)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage:HOOQ_Home_Page_VerifyHomePage</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying login scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+<br/>at tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage.HOOQ_Home_Page_VerifyHomePage(HOOQ_Home_Page_VerifyHomePage.java:50)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher:HOOQ_Web_Verify_Voucher</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying Invalid Voucher Code scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSubscription(HOOQWorkflows.java:669)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher.HOOQ_Web_Verify_Voucher(HOOQ_Web_Verify_Voucher.java:32)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC:HOOQ_Web_TVOD_Rent_With_CC</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying TVOD_Rent_With_CC scenarios for IN_LAPSED_USER</td>
+<td>false</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC.HOOQ_Web_TVOD_Rent_With_CC(HOOQ_Web_TVOD_Rent_With_CC.java:50)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin:HOOQ_Web_Support_AfterLogin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying HOOQ Support After Login for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySupport(HOOQWorkflows.java:1333)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin.HOOQ_Web_Support_AfterLogin(HOOQ_Web_Support_AfterLogin.java:34)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">tv.hooq.web.scripts.HOOQ_Web_PlayerSettings:HOOQ_Web_PlayerSettings</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying HOOQ_PlayerSettings scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificEpisode(HOOQWorkflows.java:347)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyPlayerSettings(HOOQWorkflows.java:2026)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_PlayerSettings.HOOQ_Web_PlayerSettings(HOOQ_Web_PlayerSettings.java:34)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite:HOOQ_Web_Verify_Favorite</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying HOOQ_Verify_FavoriteHomePage scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageBannerFavorite(HOOQWorkflows.java:7572)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite.HOOQ_Web_Verify_Favorite(HOOQ_Web_Verify_Favorite.java:33)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">tv.hooq.web.scripts.HOOQ_Web_FAQLink:HOOQ_Web_FAQLink</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying FAQ Link scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQLinkPage(HOOQWorkflows.java:7756)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_FAQLink.HOOQ_Web_FAQLink(HOOQ_Web_FAQLink.java:32)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater:HOOQ_Web_Verify_WatchLater</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying HOOQ_Verify_WatchLaterHomePage scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToWatchlater(HOOQWorkflows.java:691)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnClearListWatchlater(HOOQWorkflows.java:1290)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyWatchLaterHomeScreen(HOOQWorkflows.java:1477)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater.HOOQ_Web_Verify_WatchLater(HOOQ_Web_Verify_WatchLater.java:33)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess:HOOQ_Web_Player_Settings_UserAccess</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying HOOQ_Player_Settings_UserAccess scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess.HOOQ_Web_Player_Settings_UserAccess(HOOQ_Web_Player_Settings_UserAccess.java:37)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner:HOOQ_Web_Home_Page_VerifyBanner</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying login scenarios for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner.HOOQ_Web_Home_Page_VerifyBanner(HOOQ_Web_Home_Page_VerifyBanner.java:51)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag:HOOQ_Web_TVOD_Rent_Flag</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying Rental Callout Flag scenarios for IN_ACTIVE_USER</td>
+<td>INR 150</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnGoToRent(HOOQWorkflows.java:5111)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnGetRentedMovieCollectionName(HOOQWorkflows.java:5136)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag.HOOQ_Web_TVOD_Rent_Flag(HOOQ_Web_TVOD_Rent_Flag.java:47)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER:HOOQ_Web_PickYourPlan_ALL_USER</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying Pick Your Plan scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step LogIn Failed with description Failed expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:99)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER:HOOQ_Web_PickYourPlan_ALL_USER</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying Pick Your Plan scenarios for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step Verify  Failed with description &lt;b&gt;Get Started&lt;/b&gt; is not present in the element expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.isElementDisplayed(ActionEngine.java:2487)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:37)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_Ticket:HOOQ_Web_TVOD_Rent_With_Ticket</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th></tr>
+<tr class="param stripe"><td>th_prodtest_ios30_01@yopmail.com</td>
+<td>new</td>
+<td>FREE</td>
+<td>DUPLEX</td>
+<td>Verifying HOOQ_TVOD_Rent_With_Ticket</td>
+<td>true</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="6">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_Ticket.HOOQ_Web_TVOD_Rent_With_Ticket(HOOQ_Web_TVOD_Rent_With_Ticket.java:33)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails:HOOQ_Web_Search_ContentDetails</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying Search and Content Details scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnSearchContent(HOOQWorkflows.java:6359)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails.HOOQ_Web_Search_ContentDetails(HOOQ_Web_Search_ContentDetails.java:51)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails:HOOQ_Web_Search_ContentDetails</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying Search and Content Details scenarios for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnSearchContent(HOOQWorkflows.java:6359)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails.HOOQ_Web_Search_ContentDetails(HOOQ_Web_Search_ContentDetails.java:51)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">tv.hooq.web.scripts.HOOQ_Web_Settings:HOOQ_Web_Settings</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying Hooq Settings scenarios for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSettings(HOOQWorkflows.java:737)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySettings(HOOQWorkflows.java:3615)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Settings.HOOQ_Web_Settings(HOOQ_Web_Settings.java:34)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage:HOOQ_Home_Page_VerifyHomePage</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying login scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+<br/>at tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage.HOOQ_Home_Page_VerifyHomePage(HOOQ_Home_Page_VerifyHomePage.java:50)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC:HOOQ_Web_TVOD_Rent_With_CC</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying TVOD_Rent_With_CC scenarios for IN_ACTIVE_USER</td>
+<td>false</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC.HOOQ_Web_TVOD_Rent_With_CC(HOOQ_Web_TVOD_Rent_With_CC.java:50)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag:HOOQ_Web_TVOD_Rent_Flag</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying Rental Callout Flag scenarios for IN_FREE_USER</td>
+<td>INR 150</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnGoToRent(HOOQWorkflows.java:5111)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnGetRentedMovieCollectionName(HOOQWorkflows.java:5136)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag.HOOQ_Web_TVOD_Rent_Flag(HOOQ_Web_TVOD_Rent_Flag.java:47)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">tv.hooq.web.scripts.HOOQ_Web_FAQ_Search:HOOQ_Web_FAQ_Search</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying FAQ Search scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQsearch(HOOQWorkflows.java:7697)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_FAQ_Search.HOOQ_Web_FAQ_Search(HOOQ_Web_FAQ_Search.java:32)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage:HOOQ_Web_Home_Page_VerifyHomePage</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying login scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage.HOOQ_Web_Home_Page_VerifyHomePage(HOOQ_Web_Home_Page_VerifyHomePage.java:50)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER:HOOQ_Web_PickYourPlan_ALL_USER</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying Pick Your Plan scenarios for IN_ACTIVERECCURING_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step LogIn Failed with description Failed expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:99)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage:HOOQ_Web_Home_Page_VerifyHomePage</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying login scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage.HOOQ_Web_Home_Page_VerifyHomePage(HOOQ_Web_Home_Page_VerifyHomePage.java:50)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">tv.hooq.web.scripts.HOOQ_Web_PlayerSettings:HOOQ_Web_PlayerSettings</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying HOOQ_PlayerSettings scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificEpisode(HOOQWorkflows.java:347)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyPlayerSettings(HOOQWorkflows.java:2026)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_PlayerSettings.HOOQ_Web_PlayerSettings(HOOQ_Web_PlayerSettings.java:34)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse:HOOQ_Web_Home_Page_VerifyBrowse</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying login scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse.HOOQ_Web_Home_Page_VerifyBrowse(HOOQ_Web_Home_Page_VerifyBrowse.java:51)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">tv.hooq.web.scripts.HOOQ_Web_GetStarted_All_Users:HOOQ_Web_GetStarted_All_Users</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying login scenarios for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step Verify  Failed with description &lt;b&gt;Get Started&lt;/b&gt; is not present in the element expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.isElementDisplayed(ActionEngine.java:2487)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_GetStarted_All_Users.HOOQ_Web_GetStarted_All_Users(HOOQ_Web_GetStarted_All_Users.java:58)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m34">tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails:HOOQ_Web_Search_ContentDetails</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying Search and Content Details scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnSearchContent(HOOQWorkflows.java:6359)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails.HOOQ_Web_Search_ContentDetails(HOOQ_Web_Search_ContentDetails.java:51)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m35">tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage:HOOQ_Home_Page_VerifyHomePage</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying login scenarios for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+<br/>at tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage.HOOQ_Home_Page_VerifyHomePage(HOOQ_Home_Page_VerifyHomePage.java:50)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m36">tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher:HOOQ_Web_Verify_Voucher</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying Invalid Voucher Code  scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSubscription(HOOQWorkflows.java:669)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher.HOOQ_Web_Verify_Voucher(HOOQ_Web_Verify_Voucher.java:32)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m37">tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER:HOOQ_Web_PickYourPlan_ALL_USER</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Anonymos</td>
+<td>Anonymos</td>
+<td>Anonymos</td>
+<td>Verifying Pick Your Plan  scenarios for IN_ANONYMOS_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step Verify  Failed with description &lt;b&gt;Get HOOQ&lt;/b&gt; is not present in the element expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.isElementDisplayed(ActionEngine.java:2487)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:61)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m38">tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite:HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying HOOQ_Verify_FavoriteHomePage scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFavoritesContenDetails(HOOQWorkflows.java:1608)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite(HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.java:33)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m39">tv.hooq.web.scripts.HOOQ_Web_Settings:HOOQ_Web_Settings</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying Hooq Settings scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSettings(HOOQWorkflows.java:737)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySettings(HOOQWorkflows.java:3615)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Settings.HOOQ_Web_Settings(HOOQ_Web_Settings.java:34)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m40">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition:HOOQ_Web_TVOD_Rent_Terms_And_Condition</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying TVOD_Rent_With_CC scenarios for IN_ACTIVE_USER</td>
+<td>false</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition.HOOQ_Web_TVOD_Rent_Terms_And_Condition(HOOQ_Web_TVOD_Rent_Terms_And_Condition.java:50)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m41">tv.hooq.web.scripts.HOOQ_Web_FAQLink:HOOQ_Web_FAQLink</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying Link scenarios for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQLinkPage(HOOQWorkflows.java:7756)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_FAQLink.HOOQ_Web_FAQLink(HOOQ_Web_FAQLink.java:32)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m42">tv.hooq.web.scripts.HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback:HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>new</td>
+<td>FREE</td>
+<td>DUPLEX</td>
+<td>Verifying Playback scenario for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback.HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback(HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback.java:27)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m43">tv.hooq.web.scripts.HOOQ_Web_Settings:HOOQ_Web_Settings</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying Hooq Settings scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSettings(HOOQWorkflows.java:737)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySettings(HOOQWorkflows.java:3615)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Settings.HOOQ_Web_Settings(HOOQ_Web_Settings.java:34)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m44">tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite:HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying HOOQ_Verify_FavoriteHomePage scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFavoritesContenDetails(HOOQWorkflows.java:1608)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite(HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.java:33)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m45">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC:HOOQ_Web_TVOD_Rent_With_CC</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>th_prodtest_ios30_01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying TVOD_Rent_With_CC scenarios for IN_FREE_USER</td>
+<td>true</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnGetTicketCount(HOOQWorkflows.java:4833)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC.HOOQ_Web_TVOD_Rent_With_CC(HOOQ_Web_TVOD_Rent_With_CC.java:48)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m46">tv.hooq.web.scripts.HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback:HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>new</td>
+<td>LAPSED</td>
+<td>DUPLEX</td>
+<td>Verifying Playback scenario for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback.HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback(HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback.java:27)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m47">tv.hooq.web.scripts.HOOQ_Web_PlayerSettings:HOOQ_Web_PlayerSettings</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying HOOQ_PlayerSettings scenarios for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificEpisode(HOOQWorkflows.java:347)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyPlayerSettings(HOOQWorkflows.java:2003)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_PlayerSettings.HOOQ_Web_PlayerSettings(HOOQ_Web_PlayerSettings.java:34)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m48">tv.hooq.web.scripts.HOOQ_Web_FAQ_Search:HOOQ_Web_FAQ_Search</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying FAQ Search scenarios for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQsearch(HOOQWorkflows.java:7697)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_FAQ_Search.HOOQ_Web_FAQ_Search(HOOQ_Web_FAQ_Search.java:32)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m49">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition:HOOQ_Web_TVOD_Rent_Terms_And_Condition</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>th_prodtest_ios30_01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying TVOD_Rent_With_CC scenarios for IN_FREE_USER</td>
+<td>true</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnGetTicketCount(HOOQWorkflows.java:4833)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition.HOOQ_Web_TVOD_Rent_Terms_And_Condition(HOOQ_Web_TVOD_Rent_Terms_And_Condition.java:48)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m50">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse:HOOQ_Web_Home_Page_VerifyBrowse</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying login scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse.HOOQ_Web_Home_Page_VerifyBrowse(HOOQ_Web_Home_Page_VerifyBrowse.java:51)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m51">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner:HOOQ_Web_Home_Page_VerifyBanner</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying login scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner.HOOQ_Web_Home_Page_VerifyBanner(HOOQ_Web_Home_Page_VerifyBanner.java:51)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m52">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner:HOOQ_Web_Home_Page_VerifyBanner</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying login scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner.HOOQ_Web_Home_Page_VerifyBanner(HOOQ_Web_Home_Page_VerifyBanner.java:51)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m53">tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite:HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying HOOQ_Verify_FavoriteHomePage scenarios for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFavoritesContenDetails(HOOQWorkflows.java:1608)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite(HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.java:33)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m54">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition:HOOQ_Web_TVOD_Rent_Terms_And_Condition</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying TVOD_Rent_With_CC scenarios for IN_LAPSED_USER</td>
+<td>false</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition.HOOQ_Web_TVOD_Rent_Terms_And_Condition(HOOQ_Web_TVOD_Rent_Terms_And_Condition.java:50)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m55">tv.hooq.web.scripts.HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback:HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>new</td>
+<td>ACTIVE</td>
+<td>DUPLEX</td>
+<td>Verifying Playback scenario for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="5">
+<p>Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback.HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback(HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback.java:27)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m56">tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater:HOOQ_Web_Verify_WatchLater</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying HOOQ_Verify_WatchLaterHomePage scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToWatchlater(HOOQWorkflows.java:691)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnClearListWatchlater(HOOQWorkflows.java:1290)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyWatchLaterHomeScreen(HOOQWorkflows.java:1477)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater.HOOQ_Web_Verify_WatchLater(HOOQ_Web_Verify_WatchLater.java:33)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m57">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login:HOOQ_Web_Login_Email_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>existing</td>
+<td>Verifying login scenarios for IN_EXISTING_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login.HOOQ_Web_Login_Email_Login(HOOQ_Web_Login_Email_Login.java:33)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m58">tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher:HOOQ_Web_Verify_Voucher</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying Invalid Voucher Code  scenarios for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSubscription(HOOQWorkflows.java:669)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher.HOOQ_Web_Verify_Voucher(HOOQ_Web_Verify_Voucher.java:32)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m59">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse:HOOQ_Web_Home_Page_VerifyBrowse</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying login scenarios for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse.HOOQ_Web_Home_Page_VerifyBrowse(HOOQ_Web_Home_Page_VerifyBrowse.java:51)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m60">tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_From_History:HOOQ_Web_Verify_PlayBack_From_History</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying HOOQ_Verify_FavoriteHomePage scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToHistory(HOOQWorkflows.java:702)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnClearListHistory(HOOQWorkflows.java:1217)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_From_History.HOOQ_Web_Verify_PlayBack_From_History(HOOQ_Web_Verify_PlayBack_From_History.java:33)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m61">tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess:HOOQ_Web_Player_Settings_UserAccess</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying HOOQ_Player_Settings_UserAccess scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess.HOOQ_Web_Player_Settings_UserAccess(HOOQ_Web_Player_Settings_UserAccess.java:73)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m62">tv.hooq.web.scripts.HOOQ_Web_FAQ_Search:HOOQ_Web_FAQ_Search</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying FAQ Search scenarios for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQsearch(HOOQWorkflows.java:7697)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_FAQ_Search.HOOQ_Web_FAQ_Search(HOOQ_Web_FAQ_Search.java:32)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m63">tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER:HOOQ_Web_PickYourPlan_ALL_USER</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>ACTIVE</td>
+<td>Verifying Pick Your Plan scenarios for IN_ACTIVE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step LogIn Failed with description Failed expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:99)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m64">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage:HOOQ_Web_Home_Page_VerifyHomePage</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinlaps01@yopmail.com</td>
+<td>valid</td>
+<td>LAPSED</td>
+<td>Verifying login scenarios for IN_LAPSED_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage.HOOQ_Web_Home_Page_VerifyHomePage(HOOQ_Web_Home_Page_VerifyHomePage.java:50)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m65">tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin:HOOQ_Web_Support_AfterLogin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>valid</td>
+<td>FREE</td>
+<td>Verifying HOOQ Support After Login for IN_FREE_USER</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="4">
+<p>Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]</p>
+org.testng.Assert.fail(Assert.java:94)
+<br/>at org.testng.Assert.failNotEquals(Assert.java:494)
+<br/>at org.testng.Assert.assertTrue(Assert.java:42)
+<br/>at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+<br/>at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+<br/>at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+<br/>at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySupport(HOOQWorkflows.java:1333)
+<br/>at tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin.HOOQ_Web_Support_AfterLogin(HOOQ_Web_Support_AfterLogin.java:34)
+<br/>34 lines not shown
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m66">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login:HOOQ_Web_Login_Email_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>&amp;^%%$%</td>
+<td>invalid</td>
+<td>existing</td>
+<td>Verifying login scenarios for SPECIAL_CHARACTERS_WITHOUT_DOT_AND_AT</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m67">tv.hooq.web.scripts.HOOQ_Web_Player_Settings_AnnonymousUserAttemptingContentPlayback:HOOQ_Web_Player_Settings_AnnonymousUserAttemptingContentPlayback</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Cigniinfree01@yopmail.com</td>
+<td>new</td>
+<td>FREE</td>
+<td>DUPLEX</td>
+<td>Verifying Playback scenario for Annonymous_USER</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m68">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login:HOOQ_Web_Login_Email_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>AAA.</td>
+<td>invalid</td>
+<td>existing</td>
+<td>Verifying login scenarios for INCOMPLETE_EMAIL_WITH_DOT</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m69">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login:HOOQ_Web_Login_Email_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>%^$%^@&amp;^.&amp;%^</td>
+<td>invalid</td>
+<td>existing</td>
+<td>Verifying login scenarios for SPECIAL_CHARACTERS_WITH_DOT_AND_AT</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m70">tv.hooq.web.scripts.HOOQ_Web_FaceBookLogin:HOOQ_Web_FaceBookLogin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>existing</td>
+<td>Verifying login scenarios with Facebook</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m71">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner:HOOQ_Web_Home_Page_VerifyBanner</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Anonymos</td>
+<td>Anonymos</td>
+<td>Anonymos</td>
+<td>Verifying login scenarios for IN_ANONYMOS_USER</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m72">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login:HOOQ_Web_Login_Email_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>    @   .   </td>
+<td>invalid</td>
+<td>existing</td>
+<td>Verifying login scenarios for SPACES_WITH_DOT_AND_AT</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m73">tv.hooq.web.scripts.HOOQ_Web_GeoLocation:HOOQ_Web_GeoLocation</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Value</td>
+<td>valid</td>
+<td>Value</td>
+<td>Verifying HOOQ_Web_GeoLocation scenarios for IN_FREE_USER</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m74">tv.hooq.web.scripts.HOOQ_Web_Login_ResendEmail:HOOQ_Web_Login_ResendEmail</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>existing</td>
+<td>Verifying login scenarios Resend Email</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m75">tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage:HOOQ_Home_Page_VerifyHomePage</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Anonymos</td>
+<td>Anonymos</td>
+<td>Anonymos</td>
+<td>Verifying login scenarios for IN_ANONYMOS_USER</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m76">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login:HOOQ_Web_Login_Email_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>invalidhooqemail@cigniti.com</td>
+<td>invalidNonExistent</td>
+<td>existing</td>
+<td>Verifying login scenarios for NON_EXISTING_USER</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m77">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login:HOOQ_Web_Login_Email_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>AAA</td>
+<td>invalid</td>
+<td>existing</td>
+<td>Verifying login scenarios for INCOMPLETE_EMAIL</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m78">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login:HOOQ_Web_Login_Email_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>       </td>
+<td>invalid</td>
+<td>existing</td>
+<td>Verifying login scenarios for SPACES_WITHOUT_DOT_AND_AT</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m79">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login:HOOQ_Web_Login_Email_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>     @     </td>
+<td>invalid</td>
+<td>existing</td>
+<td>Verifying login scenarios for SPACES_WITH_AT</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m80">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage:HOOQ_Web_Home_Page_VerifyHomePage</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Anonymos</td>
+<td>Anonymos</td>
+<td>Anonymos</td>
+<td>Verifying login scenarios for IN_ANONYMOS_USER</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m81">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login:HOOQ_Web_Login_Email_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>%%%%^@</td>
+<td>invalid</td>
+<td>existing</td>
+<td>Verifying login scenarios for SPECIAL_CHARACTERS_WITH_AT</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m82">tv.hooq.web.scripts.HOOQ_Web_Support_BeforeLogin:HOOQ_Web_Support_BeforeLogin</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Anonymos</td>
+<td>Anonymos</td>
+<td>Anonymos</td>
+<td>Verifying login scenarios for IN_ANONYMOS_USER</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m83">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag:HOOQ_Web_TVOD_Rent_Flag</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Anonymos</td>
+<td>Anonymos</td>
+<td>Anonymos</td>
+<td>Verifying Rental Callout Flag scenarios for IN_ANONYMOS_USER</td>
+<td>INR 150</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m84">tv.hooq.web.scripts.HOOQ_Web_Signup_Geolocation:HOOQ_Web_Signup_Geolocation</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cignitinov30@gmail.com</td>
+<td>valid</td>
+<td>existing</td>
+<td>Verifying login scenarios for PH_EXISTING_USER</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m85">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login:HOOQ_Web_Login_Email_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>      .     </td>
+<td>invalid</td>
+<td>existing</td>
+<td>Verifying login scenarios for SPACES_WITH_DOT</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m86">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition:HOOQ_Web_TVOD_Rent_Terms_And_Condition</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Anonymos</td>
+<td>Anonymos</td>
+<td>Anonymos</td>
+<td>Verifying  TVOD_Rent_With_CC scenarios for IN_ANONYMOS_USER</td>
+<td>false</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m87">tv.hooq.web.scripts.HOOQ_Web_SignUPTermsAndConditionPrivacyPolicy:HOOQ_Web_SignUPTermsAndConditionPrivacyPolicy</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>existing</td>
+<td>Verifying PRIVACY POLICY and TERMS AND CONDITIONS scenarios for IN_EXISTING_USER</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m88">tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails:HOOQ_Web_Search_ContentDetails</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Anonymos</td>
+<td>Anonymos</td>
+<td>Anonymos</td>
+<td>Verifying Search and Content Details scenarios for IN_ANONYMOS_USER</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m89">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login:HOOQ_Web_Login_Email_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>&amp;^^&amp;&amp;.</td>
+<td>invalid</td>
+<td>existing</td>
+<td>Verifying login scenarios for SPECIAL_CHARACTERS_WITH_DOT</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m90">tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse:HOOQ_Web_Home_Page_VerifyBrowse</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>Anonymos</td>
+<td>Anonymos</td>
+<td>Anonymos</td>
+<td>Verifying login scenarios for IN_ANONYMOS_USER</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m91">tv.hooq.web.scripts.HOOQ_Web_Login_Email_InvalidMobile_No:HOOQ_Web_Login_Email_InvalidMobile_No</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>cigniinacti01@yopmail.com</td>
+<td>valid</td>
+<td>existing</td>
+<td>Verifying login Invalid Mobile No scenarios for</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m92">tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC:HOOQ_Web_TVOD_Rent_With_CC</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr>
+<tr class="param stripe"><td>Anonymos</td>
+<td>Anonymos</td>
+<td>Anonymos</td>
+<td>Verifying  TVOD_Rent_With_CC scenarios for IN_ANONYMOS_USER</td>
+<td>false</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m93">tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login:HOOQ_Web_Login_Email_Login</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr>
+<tr class="param stripe"><td>AAA@</td>
+<td>invalid</td>
+<td>existing</td>
+<td>Verifying login scenarios for INCOMPLETE_EMAIL_WITH_AT</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

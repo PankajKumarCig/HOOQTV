@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="HOOQ" allow-return-values="true" verbose="2">
+	<test name="Grouping" preserve-order="true">
+			<groups>
+				<run>
+					<include name="web"/>
+				</run>
+			</groups>
+		<classes>		
+		   	<class name="tv.hooq.web.scripts.HOOQ_Web_Subscription_CarrierBilling"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Subscription_CashCard"/>
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_Subscription_CheckingPaymentPlan"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Web_Subscription_CreditCard"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Web_Subscription_DebitCard"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Web_Subscription_NetBanking"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Web_Subscription_PayTM"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Web_TVOD_Find_Duplicate_Collection_Browse"/>	    												
+		    	<class name="tv.hooq.web.scripts.HOOQ_Web_TVOD_Find_Duplicate_Collection_Rent"/>		
+		</classes>
+	</test>
+</suite>

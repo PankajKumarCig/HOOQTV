@@ -1,0 +1,2177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="65" time="14,962.468" errors="0" skipped="0" tests="93" name="TestSuite">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="HOOQ_WEB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="DEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection"/>
+    <property name="JENKINS_HOME" value="C:\Users\E002867\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="0e820095c9775233"/>
+    <property name="POM_ARTIFACTID" value="HOOQWeb"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre7\lib\resources.jar;C:\Program Files\Java\jre7\lib\rt.jar;C:\Program Files\Java\jre7\lib\sunrsasign.jar;C:\Program Files\Java\jre7\lib\jsse.jar;C:\Program Files\Java\jre7\lib\jce.jar;C:\Program Files\Java\jre7\lib\charsets.jar;C:\Program Files\Java\jre7\lib\jfr.jar;C:\Program Files\Java\jre7\classes;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes;C:\Program Files (x86)\HP\Unified Functional Testing\\bin\java_shared\classes\jasmine.jar"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="HOOQWeb"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\Users\E002867\AppData\Local\Temp"/>
+    <property name="java.runtime.version" value="1.7.0_79-b15"/>
+    <property name="ST_INSTALL_PATH" value="C:\Program Files (x86)\HP\Unified Functional Testing\"/>
+    <property name="user.name" value="E002867"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="HOOQ_WEB"/>
+    <property name="BUILD_DISPLAY_NAME" value="#100"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre7\bin"/>
+    <property name="LOCALAPPDATA" value="C:\Users\E002867\AppData\Local"/>
+    <property name="java.version" value="1.7.0_79"/>
+    <property name="JAVA_TOOL_OPTIONS" value="-agentlib:jvmhook"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="USERNAME" value="E002867"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre7\lib\endorsed"/>
+    <property name="BUILD_ID" value="100"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jre7"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\E002867\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="24.79-b02"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_79"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\E002867"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="USERDNSDOMAIN" value="CIGNITIGLOBAL.COM"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="_classload_hook" value="jvmhook"/>
+    <property name="user.script" value=""/>
+    <property name="COMPUTERNAME" value="CTLINDT-0119"/>
+    <property name="POM_GROUPID" value="HooQAutomation"/>
+    <property name="user.home" value="C:\Users\E002867"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-HOOQ_WEB-100"/>
+    <property name="JENKINS_SERVER_COOKIE" value="0e820095c9775233"/>
+    <property name="HUDSON_URL" value="http://172.16.28.131:9090/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\E002867"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Windows\system32;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\E002867\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN_HOME/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Users\E001207\AppData\Local\Android\android-sdk;C:\Users\E001207\AppData\Local\Android\android-sdk\platform-tools;C:\Users\E001207\AppData\Local\Android\android-sdk\tools;C:\Program Files (x86)\nodejs\;E:\Android_SDK;E:\Android_SDK\tools;E:\Android_SDK\platform-tools;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Auto_Selenium\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\E002867\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\E002867\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN_HOME"/>
+    <property name="java.class.path" value="C:\Users\E002867\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Users\E002867\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN_HOME\boot\plexus-classworlds-2.5.2.jar;C:\Users\E002867\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN_HOME/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Users\E002867\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN_HOME C:\Users\E002867\.jenkins\war\WEB-INF\lib\remoting-3.7.jar C:\Users\E002867\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Users\E002867\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 60953"/>
+    <property name="Path" value="C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\Users\E001207\AppData\Local\Android\android-sdk;C:\Users\E001207\AppData\Local\Android\android-sdk\platform-tools;C:\Users\E001207\AppData\Local\Android\android-sdk\tools;C:\Program Files (x86)\nodejs\;E:\Android_SDK;E:\Android_SDK\tools;E:\Android_SDK\platform-tools;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.7.0_79\bin;C:\Auto_Selenium\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 94 Stepping 3, GenuineIntel"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="MSJAVA_ENABLE_MONITORS" value="1"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Users\E002867\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN_HOME"/>
+    <property name="IBM_JAVA_OPTIONS" value="-Xrunjvmhook -Xbootclasspath/a:&quot;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes\jasmine.jar&quot;"/>
+    <property name="java.io.tmpdir" value="C:\Users\E002867\AppData\Local\Temp\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Users\E002867\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\E002867\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN_HOME/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://172.16.28.131:9090/job/HOOQ_WEB/100/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="VSEDEFLOGDIR" value="C:\ProgramData\McAfee\DesktopProtection"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre7\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="E:\Automation\Web\TVOD_Updated\HOOQ_WEB\HOOQTV"/>
+    <property name="_JAVA_OPTIONS" value="-Xrunjvmhook -Xbootclasspath/a:&quot;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes&quot;;&quot;C:\Program Files (x86)\HP\Unified Functional Testing\\bin\java_shared\classes\jasmine.jar&quot;"/>
+    <property name="JOB_URL" value="http://172.16.28.131:9090/job/HOOQ_WEB/"/>
+    <property name="LOGONSERVER" value="\\HYDWVMADS02"/>
+    <property name="USERDOMAIN" value="CIGNITIGLOBAL"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Users\E002867\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MAVEN_HOME"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="100"/>
+    <property name="ANDROID_HOME" value="E:\Android_SDK"/>
+    <property name="JENKINS_URL" value="http://172.16.28.131:9090/"/>
+    <property name="PROCESSOR_REVISION" value="5e03"/>
+    <property name="UATDATA" value="C:\Windows\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="=C:" value="C:\Auto_Selenium"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="VBOX_INSTALL_PATH" value="C:\Program Files\Oracle\VirtualBox\"/>
+    <property name="maven3.interceptor" value="C:\Users\E002867\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="C:\Users\E002867\.jenkins\jobs\HOOQ_WEB\workspace"/>
+    <property name="maven3.interceptor.common" value="C:\Users\E002867\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="QT_USE_NATIVE_WINDOWS" value="1"/>
+  </properties>
+  <testcase time="399.365" classname="tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage" name="HOOQ_Home_Page_VerifyHomePage">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+	at tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage.HOOQ_Home_Page_VerifyHomePage(HOOQ_Home_Page_VerifyHomePage.java:50)
+</failure>
+    <system-out>...
+... TestNG 6.8beta 20120825_1010 by C?dric Beust (cedric@beust.com)
+...
+
+In Before sutie
++++++[web]
+ INFO [main] (TestEngine.java:135) - Starting browser : chrome
+File copied from Logos\cigniti.png to Results\Chrome\Chrome_2017-05-02_05_00_26_031\Screenshots\cigniti.png
+File copied from Logos\failed.ico to Results\Chrome\Chrome_2017-05-02_05_00_26_031\Screenshots\failed.ico
+File copied from Logos\hooq.png to Results\Chrome\Chrome_2017-05-02_05_00_26_031\Screenshots\hooq.png
+File copied from Logos\Minus.ico to Results\Chrome\Chrome_2017-05-02_05_00_26_031\Screenshots\Minus.ico
+File copied from Logos\passed.ico to Results\Chrome\Chrome_2017-05-02_05_00_26_031\Screenshots\passed.ico
+File copied from Logos\Plus.ico to Results\Chrome\Chrome_2017-05-02_05_00_26_031\Screenshots\Plus.ico
+File copied from Logos\warning.ico to Results\Chrome\Chrome_2017-05-02_05_00_26_031\Screenshots\warning.ico
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Home_Page_VerifyHomePage
+Copyright Text ==&gt; © 2017 HOOQ. All rights reserved.
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+05:02:27:746 &gt;&gt; Loading HP UFT Java Support (version 12.0.0.0) (SUN 1.7.0_79)
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 27739
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="393.249" classname="tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage" name="HOOQ_Home_Page_VerifyHomePage">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+	at tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage.HOOQ_Home_Page_VerifyHomePage(HOOQ_Home_Page_VerifyHomePage.java:50)
+</failure>
+    <system-out>HOOQ_Home_Page_VerifyHomePage-02_May_2017 05 00 27 688;Time :427
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Home_Page_VerifyHomePage
+Copyright Text ==&gt; © 2017 HOOQ. All rights reserved.
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 18284
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="387.375" classname="tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage" name="HOOQ_Home_Page_VerifyHomePage">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+	at tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage.HOOQ_Home_Page_VerifyHomePage(HOOQ_Home_Page_VerifyHomePage.java:50)
+</failure>
+    <system-out>HOOQ_Home_Page_VerifyHomePage-02_May_2017 05 07 36 735;Time :400
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Home_Page_VerifyHomePage
+Copyright Text ==&gt; © 2017 HOOQ. All rights reserved.
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 21585
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="31.765" classname="tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage" name="HOOQ_Home_Page_VerifyHomePage"/>
+  <testcase time="203.937" classname="tv.hooq.web.scripts.HOOQ_Web_ConitnueWatching" name="HOOQ_Web_ConitnueWatching">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_ConitnueWatching.HOOQ_Web_ConitnueWatching(HOOQ_Web_ConitnueWatching.java:33)
+</failure>
+    <system-out>HOOQ_Home_Page_VerifyHomePage-02_May_2017 05 20 53 949;Time :37
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_ConitnueWatching
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 25170
+Only local connections are allowed.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot; //*[@class=&apos;galleria-section hidden-xs-down&apos;]/a&quot;}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.02 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;CTLINDT-0119&apos;, ip: &apos;10.250.59.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value= //*[@class=&apos;galleria-section hidden-xs-down&apos;]/a}
+Session ID: 0d0826660996d0507f60b416b8c9d227
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\E002867/AppData/Local/Google/Chrome/User Data, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at tv.hooq.web.workflows.HOOQWorkflows.verifyConitnueWatching(HOOQWorkflows.java:7150)
+	at tv.hooq.web.scripts.HOOQ_Web_ConitnueWatching.HOOQ_Web_ConitnueWatching(HOOQ_Web_ConitnueWatching.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</system-err>
+  </testcase>
+  <testcase time="8.641" classname="tv.hooq.web.scripts.HOOQ_Web_FaceBookLogin" name="HOOQ_Web_FaceBookLogin"/>
+  <testcase time="148.948" classname="tv.hooq.web.scripts.HOOQ_Web_FAQ_Search" name="HOOQ_Web_FAQ_Search">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQsearch(HOOQWorkflows.java:7697)
+	at tv.hooq.web.scripts.HOOQ_Web_FAQ_Search.HOOQ_Web_FAQ_Search(HOOQ_Web_FAQ_Search.java:32)
+</failure>
+    <system-out>HOOQ_Web_FaceBookLogin-02_May_2017 05 25 06 751;Time :22
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_FAQ_Search
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 27414
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="137.941" classname="tv.hooq.web.scripts.HOOQ_Web_FAQ_Search" name="HOOQ_Web_FAQ_Search">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQsearch(HOOQWorkflows.java:7697)
+	at tv.hooq.web.scripts.HOOQ_Web_FAQ_Search.HOOQ_Web_FAQ_Search(HOOQ_Web_FAQ_Search.java:32)
+</failure>
+    <system-out>HOOQ_Web_FAQ_Search-02_May_2017 05 25 30 596;Time :155
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_FAQ_Search
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 2945
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="139.213" classname="tv.hooq.web.scripts.HOOQ_Web_FAQ_Search" name="HOOQ_Web_FAQ_Search">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQsearch(HOOQWorkflows.java:7697)
+	at tv.hooq.web.scripts.HOOQ_Web_FAQ_Search.HOOQ_Web_FAQ_Search(HOOQ_Web_FAQ_Search.java:32)
+</failure>
+    <system-out>HOOQ_Web_FAQ_Search-02_May_2017 05 28 07 583;Time :146
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_FAQ_Search
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 48450
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="139.307" classname="tv.hooq.web.scripts.HOOQ_Web_FAQLink" name="HOOQ_Web_FAQLink">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQLinkPage(HOOQWorkflows.java:7756)
+	at tv.hooq.web.scripts.HOOQ_Web_FAQLink.HOOQ_Web_FAQLink(HOOQ_Web_FAQLink.java:32)
+</failure>
+    <system-out>HOOQ_Web_FAQ_Search-02_May_2017 05 30 35 581;Time :148
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_FAQLink
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 24395
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="141.19" classname="tv.hooq.web.scripts.HOOQ_Web_FAQLink" name="HOOQ_Web_FAQLink">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQLinkPage(HOOQWorkflows.java:7756)
+	at tv.hooq.web.scripts.HOOQ_Web_FAQLink.HOOQ_Web_FAQLink(HOOQ_Web_FAQLink.java:32)
+</failure>
+    <system-out>HOOQ_Web_FAQLink-02_May_2017 05 33 05 343;Time :150
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_FAQLink
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 46026
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="139.864" classname="tv.hooq.web.scripts.HOOQ_Web_FAQLink" name="HOOQ_Web_FAQLink">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQLinkPage(HOOQWorkflows.java:7756)
+	at tv.hooq.web.scripts.HOOQ_Web_FAQLink.HOOQ_Web_FAQLink(HOOQ_Web_FAQLink.java:32)
+</failure>
+    <system-out>HOOQ_Web_FAQLink-02_May_2017 05 35 37 250;Time :149
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_FAQLink
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 14717
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="146.976" classname="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag" name="HOOQ_Web_TVOD_Rent_Flag">
+    <failure message="Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGoToRent(HOOQWorkflows.java:5111)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGetRentedMovieCollectionName(HOOQWorkflows.java:5136)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag.HOOQ_Web_TVOD_Rent_Flag(HOOQ_Web_TVOD_Rent_Flag.java:47)
+</failure>
+    <system-out>HOOQ_Web_FAQLink-02_May_2017 05 38 08 363;Time :147
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_TVOD_Rent_Flag
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 48634
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="141.186" classname="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag" name="HOOQ_Web_TVOD_Rent_Flag">
+    <failure message="Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGoToRent(HOOQWorkflows.java:5111)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGetRentedMovieCollectionName(HOOQWorkflows.java:5136)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag.HOOQ_Web_TVOD_Rent_Flag(HOOQ_Web_TVOD_Rent_Flag.java:47)
+</failure>
+    <system-out>HOOQ_Web_TVOD_Rent_Flag-02_May_2017 05 40 37 034;Time :152
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_TVOD_Rent_Flag
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 13009
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="141.552" classname="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag" name="HOOQ_Web_TVOD_Rent_Flag">
+    <failure message="Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGoToRent(HOOQWorkflows.java:5111)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGetRentedMovieCollectionName(HOOQWorkflows.java:5136)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag.HOOQ_Web_TVOD_Rent_Flag(HOOQ_Web_TVOD_Rent_Flag.java:47)
+</failure>
+    <system-out>HOOQ_Web_TVOD_Rent_Flag-02_May_2017 05 43 11 012;Time :150
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_TVOD_Rent_Flag
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 5725
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="1,784.175" classname="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag" name="HOOQ_Web_TVOD_Rent_Flag"/>
+  <testcase time="145.768" classname="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition" name="HOOQ_Web_TVOD_Rent_Terms_And_Condition">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGetTicketCount(HOOQWorkflows.java:4833)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition.HOOQ_Web_TVOD_Rent_Terms_And_Condition(HOOQ_Web_TVOD_Rent_Terms_And_Condition.java:48)
+</failure>
+    <system-out>HOOQ_Web_TVOD_Rent_Flag-02_May_2017 05 48 14 262;Time :1790
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_TVOD_Rent_Terms_And_Condition
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value th_prodtest_ios30_01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+ INFO [main] (ActionEngine.java:1930) - Clicked on Home Page
+ INFO [main] (ActionEngine.java:1930) - Clicked on Home Page
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 11522
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="148.595" classname="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition" name="HOOQ_Web_TVOD_Rent_Terms_And_Condition">
+    <failure message="Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition.HOOQ_Web_TVOD_Rent_Terms_And_Condition(HOOQ_Web_TVOD_Rent_Terms_And_Condition.java:50)
+</failure>
+    <system-out>HOOQ_Web_TVOD_Rent_Terms_And_Condition-02_May_2017 06 18 05 906;Time :153
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_TVOD_Rent_Terms_And_Condition
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 18198
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="142.65" classname="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition" name="HOOQ_Web_TVOD_Rent_Terms_And_Condition">
+    <failure message="Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition.HOOQ_Web_TVOD_Rent_Terms_And_Condition(HOOQ_Web_TVOD_Rent_Terms_And_Condition.java:50)
+</failure>
+    <system-out>HOOQ_Web_TVOD_Rent_Terms_And_Condition-02_May_2017 06 20 40 798;Time :159
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_TVOD_Rent_Terms_And_Condition
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 10978
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="193.849" classname="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition" name="HOOQ_Web_TVOD_Rent_Terms_And_Condition"/>
+  <testcase time="13.175" classname="tv.hooq.web.scripts.HOOQ_Web_GeoLocation" name="HOOQ_Web_GeoLocation"/>
+  <testcase time="166.734" classname="tv.hooq.web.scripts.HOOQ_Web_GetStarted_All_Users" name="HOOQ_Web_GetStarted_All_Users">
+    <failure message="Step Verify  Failed with description &lt;b&gt;Get Started&lt;/b&gt; is not present in the element expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Verify  Failed with description &lt;b&gt;Get Started&lt;/b&gt; is not present in the element expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.isElementDisplayed(ActionEngine.java:2487)
+	at tv.hooq.web.scripts.HOOQ_Web_GetStarted_All_Users.HOOQ_Web_GetStarted_All_Users(HOOQ_Web_GetStarted_All_Users.java:58)
+</failure>
+    <system-out>HOOQ_Web_GeoLocation-02_May_2017 06 29 14 008;Time :21
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_GetStarted_All_Users
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 45627
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="202.686" classname="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner" name="HOOQ_Web_Home_Page_VerifyBanner">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner.HOOQ_Web_Home_Page_VerifyBanner(HOOQ_Web_Home_Page_VerifyBanner.java:51)
+</failure>
+    <system-out>HOOQ_Web_GetStarted_All_Users-02_May_2017 06 29 36 697;Time :172
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Home_Page_VerifyBanner
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 3534
+Only local connections are allowed.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;highlights&apos;]/div[2]/div/ul&quot;}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;CTLINDT-0119&apos;, ip: &apos;10.250.59.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=.//*[@id=&apos;highlights&apos;]/div[2]/div/ul}
+Session ID: 3de0b1a6e74ef7796493af5c7198c966
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\E002867/AppData/Local/Google/Chrome/User Data, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor87.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageBannerAfterLogin(HOOQWorkflows.java:4638)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner.HOOQ_Web_Home_Page_VerifyBanner(HOOQ_Web_Home_Page_VerifyBanner.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</system-err>
+  </testcase>
+  <testcase time="203.796" classname="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner" name="HOOQ_Web_Home_Page_VerifyBanner">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner.HOOQ_Web_Home_Page_VerifyBanner(HOOQ_Web_Home_Page_VerifyBanner.java:51)
+</failure>
+    <system-out>HOOQ_Web_Home_Page_VerifyBanner-02_May_2017 06 32 29 990;Time :208
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Home_Page_VerifyBanner
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 11048
+Only local connections are allowed.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;highlights&apos;]/div[2]/div/ul&quot;}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;CTLINDT-0119&apos;, ip: &apos;10.250.59.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=.//*[@id=&apos;highlights&apos;]/div[2]/div/ul}
+Session ID: fa5d0071fd7c04a07efdc93b0fa802b7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\E002867/AppData/Local/Google/Chrome/User Data, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor87.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageBannerAfterLogin(HOOQWorkflows.java:4638)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner.HOOQ_Web_Home_Page_VerifyBanner(HOOQ_Web_Home_Page_VerifyBanner.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</system-err>
+  </testcase>
+  <testcase time="204.863" classname="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner" name="HOOQ_Web_Home_Page_VerifyBanner">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner.HOOQ_Web_Home_Page_VerifyBanner(HOOQ_Web_Home_Page_VerifyBanner.java:51)
+</failure>
+    <system-out>HOOQ_Web_Home_Page_VerifyBanner-02_May_2017 06 35 59 613;Time :209
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Home_Page_VerifyBanner
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 35740
+Only local connections are allowed.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;highlights&apos;]/div[2]/div/ul&quot;}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;CTLINDT-0119&apos;, ip: &apos;10.250.59.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=xpath, value=.//*[@id=&apos;highlights&apos;]/div[2]/div/ul}
+Session ID: 8712d2121bf061870f1d98add8906c85
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\E002867/AppData/Local/Google/Chrome/User Data, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor87.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:490)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageBannerAfterLogin(HOOQWorkflows.java:4638)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner.HOOQ_Web_Home_Page_VerifyBanner(HOOQ_Web_Home_Page_VerifyBanner.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</system-err>
+  </testcase>
+  <testcase time="24.409" classname="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner" name="HOOQ_Web_Home_Page_VerifyBanner"/>
+  <testcase time="207.082" classname="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse" name="HOOQ_Web_Home_Page_VerifyBrowse">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse.HOOQ_Web_Home_Page_VerifyBrowse(HOOQ_Web_Home_Page_VerifyBrowse.java:51)
+</failure>
+    <system-out>HOOQ_Web_Home_Page_VerifyBanner-02_May_2017 06 43 04 791;Time :30
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Home_Page_VerifyBrowse
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+Size of List 0
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 24654
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="202.464" classname="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse" name="HOOQ_Web_Home_Page_VerifyBrowse">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse.HOOQ_Web_Home_Page_VerifyBrowse(HOOQ_Web_Home_Page_VerifyBrowse.java:51)
+</failure>
+    <system-out>HOOQ_Web_Home_Page_VerifyBrowse-02_May_2017 06 43 35 994;Time :212
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Home_Page_VerifyBrowse
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+Size of List 0
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 41887
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="203.601" classname="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse" name="HOOQ_Web_Home_Page_VerifyBrowse">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse.HOOQ_Web_Home_Page_VerifyBrowse(HOOQ_Web_Home_Page_VerifyBrowse.java:51)
+</failure>
+    <system-out>HOOQ_Web_Home_Page_VerifyBrowse-02_May_2017 06 47 09 983;Time :207
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Home_Page_VerifyBrowse
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+Size of List 0
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 41766
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="22.043" classname="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse" name="HOOQ_Web_Home_Page_VerifyBrowse"/>
+  <testcase time="391.067" classname="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage" name="HOOQ_Web_Home_Page_VerifyHomePage">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage.HOOQ_Web_Home_Page_VerifyHomePage(HOOQ_Web_Home_Page_VerifyHomePage.java:50)
+</failure>
+    <system-out>HOOQ_Web_Home_Page_VerifyBrowse-02_May_2017 06 54 09 644;Time :27
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Home_Page_VerifyHomePage
+Copyright Text ==&gt; © 2017 HOOQ. All rights reserved.
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 38268
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="390.691" classname="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage" name="HOOQ_Web_Home_Page_VerifyHomePage">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage.HOOQ_Web_Home_Page_VerifyHomePage(HOOQ_Web_Home_Page_VerifyHomePage.java:50)
+</failure>
+    <system-out>HOOQ_Web_Home_Page_VerifyHomePage-02_May_2017 06 54 38 673;Time :396
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Home_Page_VerifyHomePage
+Copyright Text ==&gt; © 2017 HOOQ. All rights reserved.
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 3982
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="393.993" classname="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage" name="HOOQ_Web_Home_Page_VerifyHomePage">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage.HOOQ_Web_Home_Page_VerifyHomePage(HOOQ_Web_Home_Page_VerifyHomePage.java:50)
+</failure>
+    <system-out>HOOQ_Web_Home_Page_VerifyHomePage-02_May_2017 07 01 16 330;Time :396
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Home_Page_VerifyHomePage
+Copyright Text ==&gt; © 2017 HOOQ. All rights reserved.
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 22453
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="27.025" classname="tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage" name="HOOQ_Web_Home_Page_VerifyHomePage"/>
+  <testcase time="153.925" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_HaveAccount" name="HOOQ_Web_Login_Email_HaveAccount">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Login_Email_HaveAccount.HOOQ_Web_Login_Email_HaveAccount(HOOQ_Web_Login_Email_HaveAccount.java:32)
+</failure>
+    <system-out>HOOQ_Web_Home_Page_VerifyHomePage-02_May_2017 07 14 34 825;Time :32
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Login_Email_HaveAccount
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:101) - Clicked on Clicked on Dont have an account
+ INFO [main] (ActionEngine.java:101) - Clicked on Clicked on Already have an account
+ INFO [main] (ActionEngine.java:101) - Clicked on Clicked on login with mail or facebook
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 3821
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="10.009" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_InvalidMobile_No" name="HOOQ_Web_Login_Email_InvalidMobile_No"/>
+  <testcase time="138.192" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login" name="HOOQ_Web_Login_Email_Login">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login.HOOQ_Web_Login_Email_Login(HOOQ_Web_Login_Email_Login.java:33)
+</failure>
+    <system-out>HOOQ_Web_Login_Email_InvalidMobile_No-02_May_2017 07 17 49 009;Time :16
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Login_Email_Login
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 7448
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="7.155" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login" name="HOOQ_Web_Login_Email_Login"/>
+  <testcase time="4.639" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login" name="HOOQ_Web_Login_Email_Login"/>
+  <testcase time="3.91" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login" name="HOOQ_Web_Login_Email_Login"/>
+  <testcase time="4.196" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login" name="HOOQ_Web_Login_Email_Login"/>
+  <testcase time="4.033" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login" name="HOOQ_Web_Login_Email_Login"/>
+  <testcase time="7.072" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login" name="HOOQ_Web_Login_Email_Login"/>
+  <testcase time="4.05" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login" name="HOOQ_Web_Login_Email_Login"/>
+  <testcase time="4.082" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login" name="HOOQ_Web_Login_Email_Login"/>
+  <testcase time="4.501" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login" name="HOOQ_Web_Login_Email_Login"/>
+  <testcase time="4.055" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login" name="HOOQ_Web_Login_Email_Login"/>
+  <testcase time="3.813" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login" name="HOOQ_Web_Login_Email_Login"/>
+  <testcase time="6.841" classname="tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login" name="HOOQ_Web_Login_Email_Login"/>
+  <testcase time="179.565" classname="tv.hooq.web.scripts.HOOQ_Web_Login_ResendEmail" name="HOOQ_Web_Login_ResendEmail"/>
+  <testcase time="148.483" classname="tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER" name="HOOQ_Web_PickYourPlan_ALL_USER">
+    <failure message="Step LogIn Failed with description Failed expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step LogIn Failed with description Failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:99)
+</failure>
+    <system-out>HOOQ_Web_Login_ResendEmail-02_May_2017 07 22 53 793;Time :192
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_PickYourPlan_ALL_USER
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 35920
+Only local connections are allowed.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;concierge-mount&quot;}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.04 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;CTLINDT-0119&apos;, ip: &apos;10.250.59.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=id, value=concierge-mount}
+Session ID: c949ee9230406994e7fffa3c97af8ef6
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\E002867/AppData/Local/Google/Chrome/User Data, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor87.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</system-err>
+  </testcase>
+  <testcase time="158.881" classname="tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER" name="HOOQ_Web_PickYourPlan_ALL_USER">
+    <failure message="Step Verify  Failed with description &lt;b&gt;Get Started&lt;/b&gt; is not present in the element expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Verify  Failed with description &lt;b&gt;Get Started&lt;/b&gt; is not present in the element expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.isElementDisplayed(ActionEngine.java:2487)
+	at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:37)
+</failure>
+    <system-out>HOOQ_Web_PickYourPlan_ALL_USER-02_May_2017 07 26 08 112;Time :154
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_PickYourPlan_ALL_USER
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 48171
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="150.423" classname="tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER" name="HOOQ_Web_PickYourPlan_ALL_USER">
+    <failure message="Step LogIn Failed with description Failed expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step LogIn Failed with description Failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:99)
+</failure>
+    <system-out>HOOQ_Web_PickYourPlan_ALL_USER-02_May_2017 07 28 43 493;Time :164
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_PickYourPlan_ALL_USER
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 24843
+Only local connections are allowed.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;concierge-mount&quot;}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;CTLINDT-0119&apos;, ip: &apos;10.250.59.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=id, value=concierge-mount}
+Session ID: 44ec0ec8c012866478cc87bd79a3b5fb
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\E002867/AppData/Local/Google/Chrome/User Data, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor87.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</system-err>
+  </testcase>
+  <testcase time="146.523" classname="tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER" name="HOOQ_Web_PickYourPlan_ALL_USER">
+    <failure message="Step LogIn Failed with description Failed expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step LogIn Failed with description Failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:99)
+</failure>
+    <system-out>HOOQ_Web_PickYourPlan_ALL_USER-02_May_2017 07 31 28 971;Time :156
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_PickYourPlan_ALL_USER
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 5451
+Only local connections are allowed.
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;concierge-mount&quot;}
+  (Session info: chrome=58.0.3029.81)
+  (Driver info: chromedriver=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 60.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.48.2&apos;, revision: &apos;41bccdd10cf2c0560f637404c2d96164b67d9d67&apos;, time: &apos;2015-10-09 13:08:06&apos;
+System info: host: &apos;CTLINDT-0119&apos;, ip: &apos;10.250.59.16&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_79&apos;
+*** Element info: {Using=id, value=concierge-mount}
+Session ID: fa60ad2d578fb7bd65006b8907169372
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\E002867/AppData/Local/Google/Chrome/User Data, chromedriverVersion=2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed)}, networkConnectionEnabled=false, rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=58.0.3029.81, pageLoadStrategy=normal, takesHeapSnapshot=true, cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true, nativeEvents=true, hasTouchScreen=false, applicationCacheEnabled=false, takesScreenshot=true}]
+	at sun.reflect.GeneratedConstructorAccessor87.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:403)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)
+	at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:122)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:172)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:104)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:70)
+</system-err>
+  </testcase>
+  <testcase time="83.684" classname="tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER" name="HOOQ_Web_PickYourPlan_ALL_USER">
+    <failure message="Step Verify  Failed with description &lt;b&gt;Get HOOQ&lt;/b&gt; is not present in the element expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Verify  Failed with description &lt;b&gt;Get HOOQ&lt;/b&gt; is not present in the element expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.isElementDisplayed(ActionEngine.java:2487)
+	at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:61)
+</failure>
+    <system-out>HOOQ_Web_PickYourPlan_ALL_USER-02_May_2017 07 34 06 432;Time :152
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_PickYourPlan_ALL_USER
+ INFO [main] (ActionEngine.java:101) - Clicked on Sign Up
+ INFO [main] (ActionEngine.java:101) - Clicked on Skip
+ INFO [main] (ActionEngine.java:101) - Clicked on Skip
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 36691
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="184.876" classname="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback" name="HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback">
+    <failure message="Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+	at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback.HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback(HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback.java:27)
+</failure>
+    <system-out>HOOQ_Web_PickYourPlan_ALL_USER-02_May_2017 07 36 39 779;Time :89
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 7675
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="46.228" classname="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_AnnonymousUserAttemptingContentPlayback" name="HOOQ_Web_Player_Settings_AnnonymousUserAttemptingContentPlayback"/>
+  <testcase time="144.281" classname="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback" name="HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback">
+    <failure message="Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+	at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback.HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback(HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback.java:27)
+</failure>
+    <system-out>HOOQ_Web_Player_Settings_AnnonymousUserAttemptingContentPlayback-02_May_2017 07 41 29 989;Time :52
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 22924
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="136.135" classname="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback" name="HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback">
+    <failure message="Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+	at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback.HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback(HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback.java:27)
+</failure>
+    <system-out>HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback-02_May_2017 07 42 23 330;Time :149
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 8075
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="138.13" classname="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess" name="HOOQ_Web_Player_Settings_UserAccess">
+    <failure message="Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+	at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess.HOOQ_Web_Player_Settings_UserAccess(HOOQ_Web_Player_Settings_UserAccess.java:37)
+</failure>
+    <system-out>HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback-02_May_2017 07 44 54 265;Time :141
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Player_Settings_UserAccess
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 36635
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="138.531" classname="tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess" name="HOOQ_Web_Player_Settings_UserAccess">
+    <failure message="Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+	at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess.HOOQ_Web_Player_Settings_UserAccess(HOOQ_Web_Player_Settings_UserAccess.java:73)
+</failure>
+    <system-out>HOOQ_Web_Player_Settings_UserAccess-02_May_2017 07 47 17 259;Time :143
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Player_Settings_UserAccess
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 38177
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="141.539" classname="tv.hooq.web.scripts.HOOQ_Web_PlayerSettings" name="HOOQ_Web_PlayerSettings">
+    <failure message="Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificEpisode(HOOQWorkflows.java:347)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyPlayerSettings(HOOQWorkflows.java:2026)
+	at tv.hooq.web.scripts.HOOQ_Web_PlayerSettings.HOOQ_Web_PlayerSettings(HOOQ_Web_PlayerSettings.java:34)
+</failure>
+    <system-out>HOOQ_Web_Player_Settings_UserAccess-02_May_2017 07 49 42 226;Time :144
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_PlayerSettings
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 35622
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="139.249" classname="tv.hooq.web.scripts.HOOQ_Web_PlayerSettings" name="HOOQ_Web_PlayerSettings">
+    <failure message="Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificEpisode(HOOQWorkflows.java:347)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyPlayerSettings(HOOQWorkflows.java:2026)
+	at tv.hooq.web.scripts.HOOQ_Web_PlayerSettings.HOOQ_Web_PlayerSettings(HOOQ_Web_PlayerSettings.java:34)
+</failure>
+    <system-out>HOOQ_Web_PlayerSettings-02_May_2017 07 52 07 661;Time :147
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_PlayerSettings
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 37835
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="140.507" classname="tv.hooq.web.scripts.HOOQ_Web_PlayerSettings" name="HOOQ_Web_PlayerSettings">
+    <failure message="Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificEpisode(HOOQWorkflows.java:347)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyPlayerSettings(HOOQWorkflows.java:2003)
+	at tv.hooq.web.scripts.HOOQ_Web_PlayerSettings.HOOQ_Web_PlayerSettings(HOOQ_Web_PlayerSettings.java:34)
+</failure>
+    <system-out>HOOQ_Web_PlayerSettings-02_May_2017 07 54 36 109;Time :147
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_PlayerSettings
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 21037
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="150.935" classname="tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails" name="HOOQ_Web_Search_ContentDetails">
+    <failure message="Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnSearchContent(HOOQWorkflows.java:6359)
+	at tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails.HOOQ_Web_Search_ContentDetails(HOOQ_Web_Search_ContentDetails.java:51)
+</failure>
+    <system-out>HOOQ_Web_PlayerSettings-02_May_2017 07 57 05 036;Time :146
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Search_ContentDetails
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 39387
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="141.035" classname="tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails" name="HOOQ_Web_Search_ContentDetails">
+    <failure message="Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnSearchContent(HOOQWorkflows.java:6359)
+	at tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails.HOOQ_Web_Search_ContentDetails(HOOQ_Web_Search_ContentDetails.java:51)
+</failure>
+    <system-out>HOOQ_Web_Search_ContentDetails-02_May_2017 07 59 32 643;Time :156
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Search_ContentDetails
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 6569
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="147.647" classname="tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails" name="HOOQ_Web_Search_ContentDetails">
+    <failure message="Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Search Button&lt;/b&gt; was &lt;b&gt;NOT&lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnSearchContent(HOOQWorkflows.java:6359)
+	at tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails.HOOQ_Web_Search_ContentDetails(HOOQ_Web_Search_ContentDetails.java:51)
+</failure>
+    <system-out>HOOQ_Web_Search_ContentDetails-02_May_2017 08 02 10 615;Time :149
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Search_ContentDetails
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 19294
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="105.399" classname="tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails" name="HOOQ_Web_Search_ContentDetails"/>
+  <testcase time="139.308" classname="tv.hooq.web.scripts.HOOQ_Web_Settings" name="HOOQ_Web_Settings">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSettings(HOOQWorkflows.java:737)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySettings(HOOQWorkflows.java:3615)
+	at tv.hooq.web.scripts.HOOQ_Web_Settings.HOOQ_Web_Settings(HOOQ_Web_Settings.java:34)
+</failure>
+    <system-out>HOOQ_Web_Search_ContentDetails-02_May_2017 08 07 15 340;Time :110
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Settings
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 36977
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="135.803" classname="tv.hooq.web.scripts.HOOQ_Web_Settings" name="HOOQ_Web_Settings">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSettings(HOOQWorkflows.java:737)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySettings(HOOQWorkflows.java:3615)
+	at tv.hooq.web.scripts.HOOQ_Web_Settings.HOOQ_Web_Settings(HOOQ_Web_Settings.java:34)
+</failure>
+    <system-out>HOOQ_Web_Settings-02_May_2017 08 09 07 400;Time :147
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Settings
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 9148
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="141.3" classname="tv.hooq.web.scripts.HOOQ_Web_Settings" name="HOOQ_Web_Settings">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSettings(HOOQWorkflows.java:737)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySettings(HOOQWorkflows.java:3615)
+	at tv.hooq.web.scripts.HOOQ_Web_Settings.HOOQ_Web_Settings(HOOQ_Web_Settings.java:34)
+</failure>
+    <system-out>HOOQ_Web_Settings-02_May_2017 08 11 36 316;Time :141
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Settings
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 24596
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="6.124" classname="tv.hooq.web.scripts.HOOQ_Web_Signup_Geolocation" name="HOOQ_Web_Signup_Geolocation"/>
+  <testcase time="76.97" classname="tv.hooq.web.scripts.HOOQ_Web_SignUPTermsAndConditionPrivacyPolicy" name="HOOQ_Web_SignUPTermsAndConditionPrivacyPolicy"/>
+  <testcase time="143.558" classname="tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin" name="HOOQ_Web_Support_AfterLogin">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySupport(HOOQWorkflows.java:1333)
+	at tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin.HOOQ_Web_Support_AfterLogin(HOOQ_Web_Support_AfterLogin.java:34)
+</failure>
+    <system-out>HOOQ_Web_SignUPTermsAndConditionPrivacyPolicy-02_May_2017 08 16 43 504;Time :82
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Support_AfterLogin
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 33063
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="142.144" classname="tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin" name="HOOQ_Web_Support_AfterLogin">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySupport(HOOQWorkflows.java:1333)
+	at tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin.HOOQ_Web_Support_AfterLogin(HOOQ_Web_Support_AfterLogin.java:34)
+</failure>
+    <system-out>HOOQ_Web_Support_AfterLogin-02_May_2017 08 18 07 304;Time :151
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Support_AfterLogin
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 25781
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="147.535" classname="tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin" name="HOOQ_Web_Support_AfterLogin">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySupport(HOOQWorkflows.java:1333)
+	at tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin.HOOQ_Web_Support_AfterLogin(HOOQ_Web_Support_AfterLogin.java:34)
+</failure>
+    <system-out>HOOQ_Web_Support_AfterLogin-02_May_2017 08 20 40 475;Time :147
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Support_AfterLogin
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 24029
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="134.706" classname="tv.hooq.web.scripts.HOOQ_Web_Support_BeforeLogin" name="HOOQ_Web_Support_BeforeLogin"/>
+  <testcase time="145.983" classname="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC" name="HOOQ_Web_TVOD_Rent_With_CC">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGetTicketCount(HOOQWorkflows.java:4833)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC.HOOQ_Web_TVOD_Rent_With_CC(HOOQ_Web_TVOD_Rent_With_CC.java:48)
+</failure>
+    <system-out>HOOQ_Web_Support_BeforeLogin-02_May_2017 08 25 50 293;Time :140
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_TVOD_Rent_With_CC
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value th_prodtest_ios30_01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+ INFO [main] (ActionEngine.java:1930) - Clicked on Home Page
+ INFO [main] (ActionEngine.java:1930) - Clicked on Home Page
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 40886
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="145.007" classname="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC" name="HOOQ_Web_TVOD_Rent_With_CC">
+    <failure message="Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC.HOOQ_Web_TVOD_Rent_With_CC(HOOQ_Web_TVOD_Rent_With_CC.java:50)
+</failure>
+    <system-out>HOOQ_Web_TVOD_Rent_With_CC-02_May_2017 08 28 11 862;Time :151
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_TVOD_Rent_With_CC
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 26940
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="141.238" classname="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC" name="HOOQ_Web_TVOD_Rent_With_CC">
+    <failure message="Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step Click Failed with description &lt;b&gt;Rent Button&lt;/b&gt; was &lt;b&gt; NOT &lt;/b&gt; clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC.HOOQ_Web_TVOD_Rent_With_CC(HOOQ_Web_TVOD_Rent_With_CC.java:50)
+</failure>
+    <system-out>HOOQ_Web_TVOD_Rent_With_CC-02_May_2017 08 30 44 647;Time :156
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_TVOD_Rent_With_CC
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 35552
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="188.11" classname="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC" name="HOOQ_Web_TVOD_Rent_With_CC"/>
+  <testcase time="137.46" classname="tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_Ticket" name="HOOQ_Web_TVOD_Rent_With_Ticket">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_Ticket.HOOQ_Web_TVOD_Rent_With_Ticket(HOOQ_Web_TVOD_Rent_With_Ticket.java:33)
+</failure>
+    <system-out>HOOQ_Web_TVOD_Rent_With_CC-02_May_2017 08 35 50 709;Time :193
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_TVOD_Rent_With_Ticket
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value th_prodtest_ios30_01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 14588
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="140.887" classname="tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite" name="HOOQ_Web_Verify_Favorite">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageBannerFavorite(HOOQWorkflows.java:7572)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite.HOOQ_Web_Verify_Favorite(HOOQ_Web_Verify_Favorite.java:33)
+</failure>
+    <system-out>HOOQ_Web_TVOD_Rent_With_Ticket-02_May_2017 08 39 05 615;Time :143
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Verify_Favorite
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 15973
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="136.929" classname="tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite" name="HOOQ_Web_Verify_Favorite">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageBannerFavorite(HOOQWorkflows.java:7572)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite.HOOQ_Web_Verify_Favorite(HOOQ_Web_Verify_Favorite.java:33)
+</failure>
+    <system-out>HOOQ_Web_Verify_Favorite-02_May_2017 08 41 30 163;Time :146
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Verify_Favorite
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 45306
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="142.21" classname="tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_From_History" name="HOOQ_Web_Verify_PlayBack_From_History">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToHistory(HOOQWorkflows.java:702)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListHistory(HOOQWorkflows.java:1217)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_From_History.HOOQ_Web_Verify_PlayBack_From_History(HOOQ_Web_Verify_PlayBack_From_History.java:33)
+</failure>
+    <system-out>HOOQ_Web_Verify_Favorite-02_May_2017 08 43 58 014;Time :142
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Verify_PlayBack_From_History
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 14613
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="147.135" classname="tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite" name="HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFavoritesContenDetails(HOOQWorkflows.java:1608)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite(HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.java:33)
+</failure>
+    <system-out>HOOQ_Web_Verify_PlayBack_From_History-02_May_2017 08 46 21 844;Time :147
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 16583
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="137.272" classname="tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite" name="HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFavoritesContenDetails(HOOQWorkflows.java:1608)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite(HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.java:33)
+</failure>
+    <system-out>HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite-02_May_2017 08 48 50 906;Time :155
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 38309
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="136.995" classname="tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite" name="HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFavoritesContenDetails(HOOQWorkflows.java:1608)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite(HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.java:33)
+</failure>
+    <system-out>HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite-02_May_2017 08 51 27 985;Time :143
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 18394
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="140.252" classname="tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher" name="HOOQ_Web_Verify_Voucher">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSubscription(HOOQWorkflows.java:669)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher.HOOQ_Web_Verify_Voucher(HOOQ_Web_Verify_Voucher.java:32)
+</failure>
+    <system-out>HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite-02_May_2017 08 53 52 703;Time :142
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Verify_Voucher
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 42322
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="139.17" classname="tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher" name="HOOQ_Web_Verify_Voucher">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSubscription(HOOQWorkflows.java:669)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher.HOOQ_Web_Verify_Voucher(HOOQ_Web_Verify_Voucher.java:32)
+</failure>
+    <system-out>HOOQ_Web_Verify_Voucher-02_May_2017 08 56 16 693;Time :212
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Verify_Voucher
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 20349
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="136.739" classname="tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher" name="HOOQ_Web_Verify_Voucher">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSubscription(HOOQWorkflows.java:669)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher.HOOQ_Web_Verify_Voucher(HOOQ_Web_Verify_Voucher.java:32)
+</failure>
+    <system-out>HOOQ_Web_Verify_Voucher-02_May_2017 08 59 50 390;Time :144
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Verify_Voucher
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinlaps01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 2046
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="146.185" classname="tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater" name="HOOQ_Web_Verify_WatchLater">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToWatchlater(HOOQWorkflows.java:691)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListWatchlater(HOOQWorkflows.java:1290)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyWatchLaterHomeScreen(HOOQWorkflows.java:1477)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater.HOOQ_Web_Verify_WatchLater(HOOQ_Web_Verify_WatchLater.java:33)
+</failure>
+    <system-out>HOOQ_Web_Verify_Voucher-02_May_2017 09 02 16 303;Time :142
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Verify_WatchLater
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value Cigniinfree01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 41015
+Only local connections are allowed.
+</system-err>
+  </testcase>
+  <testcase time="141.111" classname="tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater" name="HOOQ_Web_Verify_WatchLater">
+    <failure message="Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was &lt;b&gt;NOT&lt;/b&gt; perform on &lt;b&gt;Header Navigation&lt;/b&gt; expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToWatchlater(HOOQWorkflows.java:691)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListWatchlater(HOOQWorkflows.java:1290)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyWatchLaterHomeScreen(HOOQWorkflows.java:1477)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater.HOOQ_Web_Verify_WatchLater(HOOQ_Web_Verify_WatchLater.java:33)
+</failure>
+    <system-out>HOOQ_Web_Verify_WatchLater-02_May_2017 09 04 39 883;Time :151
+ INFO [main] (TestEngine.java:444) - Current Test : HOOQ_Web_Verify_WatchLater
+ INFO [main] (ActionEngine.java:101) - Clicked on Log In
+ INFO [main] (ActionEngine.java:402) - Entered value cigniinacti01@yopmail.com in: Email Address
+ INFO [main] (ActionEngine.java:1930) - Clicked on Done
+ INFO [main] (ActionEngine.java:101) - Clicked on Enter Pasword
+ INFO [main] (ActionEngine.java:402) - Entered value 123456 in: Enter Password
+ INFO [main] (ActionEngine.java:101) - Clicked on OK
+</system-out>
+    <system-err>Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 44135
+Only local connections are allowed.
+</system-err>
+  </testcase>
+</testsuite>

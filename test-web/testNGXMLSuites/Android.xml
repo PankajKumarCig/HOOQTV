@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HOOQ" allow-return-values="true" verbose="2">
+	<test name="Grouping" preserve-order="true">
+		<groups>
+				<run>
+					<include name="Android"/>
+				</run>
+			</groups>
+		<classes>
+			<class name="tv.hooq.androidMobile.scripts.HOOQ_TEST_LOGIN"></class>
+		</classes>
+	</test>
+</suite>

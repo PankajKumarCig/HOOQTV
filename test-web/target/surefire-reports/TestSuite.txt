@@ -1,0 +1,675 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 93, Failures: 65, Errors: 0, Skipped: 0, Time elapsed: 14,962.418 sec <<< FAILURE!
+HOOQ_Home_Page_VerifyHomePage(tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage)  Time elapsed: 399.365 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+	at tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage.HOOQ_Home_Page_VerifyHomePage(HOOQ_Home_Page_VerifyHomePage.java:50)
+HOOQ_Home_Page_VerifyHomePage(tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage)  Time elapsed: 393.249 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+	at tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage.HOOQ_Home_Page_VerifyHomePage(HOOQ_Home_Page_VerifyHomePage.java:50)
+HOOQ_Home_Page_VerifyHomePage(tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage)  Time elapsed: 387.375 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+	at tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage.HOOQ_Home_Page_VerifyHomePage(HOOQ_Home_Page_VerifyHomePage.java:50)
+HOOQ_Web_ConitnueWatching(tv.hooq.web.scripts.HOOQ_Web_ConitnueWatching)  Time elapsed: 203.937 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_ConitnueWatching.HOOQ_Web_ConitnueWatching(HOOQ_Web_ConitnueWatching.java:33)
+HOOQ_Web_FAQ_Search(tv.hooq.web.scripts.HOOQ_Web_FAQ_Search)  Time elapsed: 148.948 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQsearch(HOOQWorkflows.java:7697)
+	at tv.hooq.web.scripts.HOOQ_Web_FAQ_Search.HOOQ_Web_FAQ_Search(HOOQ_Web_FAQ_Search.java:32)
+HOOQ_Web_FAQ_Search(tv.hooq.web.scripts.HOOQ_Web_FAQ_Search)  Time elapsed: 137.941 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQsearch(HOOQWorkflows.java:7697)
+	at tv.hooq.web.scripts.HOOQ_Web_FAQ_Search.HOOQ_Web_FAQ_Search(HOOQ_Web_FAQ_Search.java:32)
+HOOQ_Web_FAQ_Search(tv.hooq.web.scripts.HOOQ_Web_FAQ_Search)  Time elapsed: 139.213 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQsearch(HOOQWorkflows.java:7697)
+	at tv.hooq.web.scripts.HOOQ_Web_FAQ_Search.HOOQ_Web_FAQ_Search(HOOQ_Web_FAQ_Search.java:32)
+HOOQ_Web_FAQLink(tv.hooq.web.scripts.HOOQ_Web_FAQLink)  Time elapsed: 139.307 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQLinkPage(HOOQWorkflows.java:7756)
+	at tv.hooq.web.scripts.HOOQ_Web_FAQLink.HOOQ_Web_FAQLink(HOOQ_Web_FAQLink.java:32)
+HOOQ_Web_FAQLink(tv.hooq.web.scripts.HOOQ_Web_FAQLink)  Time elapsed: 141.19 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQLinkPage(HOOQWorkflows.java:7756)
+	at tv.hooq.web.scripts.HOOQ_Web_FAQLink.HOOQ_Web_FAQLink(HOOQ_Web_FAQLink.java:32)
+HOOQ_Web_FAQLink(tv.hooq.web.scripts.HOOQ_Web_FAQLink)  Time elapsed: 139.864 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFAQLinkPage(HOOQWorkflows.java:7756)
+	at tv.hooq.web.scripts.HOOQ_Web_FAQLink.HOOQ_Web_FAQLink(HOOQ_Web_FAQLink.java:32)
+HOOQ_Web_TVOD_Rent_Flag(tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag)  Time elapsed: 146.976 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Rent Button</b> was <b> NOT </b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGoToRent(HOOQWorkflows.java:5111)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGetRentedMovieCollectionName(HOOQWorkflows.java:5136)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag.HOOQ_Web_TVOD_Rent_Flag(HOOQ_Web_TVOD_Rent_Flag.java:47)
+HOOQ_Web_TVOD_Rent_Flag(tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag)  Time elapsed: 141.186 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Rent Button</b> was <b> NOT </b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGoToRent(HOOQWorkflows.java:5111)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGetRentedMovieCollectionName(HOOQWorkflows.java:5136)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag.HOOQ_Web_TVOD_Rent_Flag(HOOQ_Web_TVOD_Rent_Flag.java:47)
+HOOQ_Web_TVOD_Rent_Flag(tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag)  Time elapsed: 141.552 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Rent Button</b> was <b> NOT </b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGoToRent(HOOQWorkflows.java:5111)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGetRentedMovieCollectionName(HOOQWorkflows.java:5136)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Flag.HOOQ_Web_TVOD_Rent_Flag(HOOQ_Web_TVOD_Rent_Flag.java:47)
+HOOQ_Web_TVOD_Rent_Terms_And_Condition(tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition)  Time elapsed: 145.767 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGetTicketCount(HOOQWorkflows.java:4833)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition.HOOQ_Web_TVOD_Rent_Terms_And_Condition(HOOQ_Web_TVOD_Rent_Terms_And_Condition.java:48)
+HOOQ_Web_TVOD_Rent_Terms_And_Condition(tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition)  Time elapsed: 148.595 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Rent Button</b> was <b> NOT </b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition.HOOQ_Web_TVOD_Rent_Terms_And_Condition(HOOQ_Web_TVOD_Rent_Terms_And_Condition.java:50)
+HOOQ_Web_TVOD_Rent_Terms_And_Condition(tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition)  Time elapsed: 142.65 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Rent Button</b> was <b> NOT </b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_Terms_And_Condition.HOOQ_Web_TVOD_Rent_Terms_And_Condition(HOOQ_Web_TVOD_Rent_Terms_And_Condition.java:50)
+HOOQ_Web_GetStarted_All_Users(tv.hooq.web.scripts.HOOQ_Web_GetStarted_All_Users)  Time elapsed: 166.734 sec  <<< FAILURE!
+java.lang.AssertionError: Step Verify  Failed with description <b>Get Started</b> is not present in the element expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.isElementDisplayed(ActionEngine.java:2487)
+	at tv.hooq.web.scripts.HOOQ_Web_GetStarted_All_Users.HOOQ_Web_GetStarted_All_Users(HOOQ_Web_GetStarted_All_Users.java:58)
+HOOQ_Web_Home_Page_VerifyBanner(tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner)  Time elapsed: 202.686 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner.HOOQ_Web_Home_Page_VerifyBanner(HOOQ_Web_Home_Page_VerifyBanner.java:51)
+HOOQ_Web_Home_Page_VerifyBanner(tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner)  Time elapsed: 203.796 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner.HOOQ_Web_Home_Page_VerifyBanner(HOOQ_Web_Home_Page_VerifyBanner.java:51)
+HOOQ_Web_Home_Page_VerifyBanner(tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner)  Time elapsed: 204.863 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBanner.HOOQ_Web_Home_Page_VerifyBanner(HOOQ_Web_Home_Page_VerifyBanner.java:51)
+HOOQ_Web_Home_Page_VerifyBrowse(tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse)  Time elapsed: 207.081 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse.HOOQ_Web_Home_Page_VerifyBrowse(HOOQ_Web_Home_Page_VerifyBrowse.java:51)
+HOOQ_Web_Home_Page_VerifyBrowse(tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse)  Time elapsed: 202.464 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse.HOOQ_Web_Home_Page_VerifyBrowse(HOOQ_Web_Home_Page_VerifyBrowse.java:51)
+HOOQ_Web_Home_Page_VerifyBrowse(tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse)  Time elapsed: 203.601 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyBrowse.HOOQ_Web_Home_Page_VerifyBrowse(HOOQ_Web_Home_Page_VerifyBrowse.java:51)
+HOOQ_Web_Home_Page_VerifyHomePage(tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage)  Time elapsed: 391.054 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage.HOOQ_Web_Home_Page_VerifyHomePage(HOOQ_Web_Home_Page_VerifyHomePage.java:50)
+HOOQ_Web_Home_Page_VerifyHomePage(tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage)  Time elapsed: 390.691 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage.HOOQ_Web_Home_Page_VerifyHomePage(HOOQ_Web_Home_Page_VerifyHomePage.java:50)
+HOOQ_Web_Home_Page_VerifyHomePage(tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage)  Time elapsed: 393.993 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageScreenAfterLogin(HOOQWorkflows.java:4461)
+	at tv.hooq.web.scripts.HOOQ_Web_Home_Page_VerifyHomePage.HOOQ_Web_Home_Page_VerifyHomePage(HOOQ_Web_Home_Page_VerifyHomePage.java:50)
+HOOQ_Web_Login_Email_HaveAccount(tv.hooq.web.scripts.HOOQ_Web_Login_Email_HaveAccount)  Time elapsed: 153.925 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Login_Email_HaveAccount.HOOQ_Web_Login_Email_HaveAccount(HOOQ_Web_Login_Email_HaveAccount.java:32)
+HOOQ_Web_Login_Email_Login(tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login)  Time elapsed: 138.191 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.logOut(HOOQWorkflows.java:328)
+	at tv.hooq.web.scripts.HOOQ_Web_Login_Email_Login.HOOQ_Web_Login_Email_Login(HOOQ_Web_Login_Email_Login.java:33)
+HOOQ_Web_PickYourPlan_ALL_USER(tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER)  Time elapsed: 148.483 sec  <<< FAILURE!
+java.lang.AssertionError: Step LogIn Failed with description Failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:99)
+HOOQ_Web_PickYourPlan_ALL_USER(tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER)  Time elapsed: 158.874 sec  <<< FAILURE!
+java.lang.AssertionError: Step Verify  Failed with description <b>Get Started</b> is not present in the element expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.isElementDisplayed(ActionEngine.java:2487)
+	at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:37)
+HOOQ_Web_PickYourPlan_ALL_USER(tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER)  Time elapsed: 150.423 sec  <<< FAILURE!
+java.lang.AssertionError: Step LogIn Failed with description Failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:99)
+HOOQ_Web_PickYourPlan_ALL_USER(tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER)  Time elapsed: 146.523 sec  <<< FAILURE!
+java.lang.AssertionError: Step LogIn Failed with description Failed expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:99)
+HOOQ_Web_PickYourPlan_ALL_USER(tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER)  Time elapsed: 83.684 sec  <<< FAILURE!
+java.lang.AssertionError: Step Verify  Failed with description <b>Get HOOQ</b> is not present in the element expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.isElementDisplayed(ActionEngine.java:2487)
+	at tv.hooq.web.scripts.HOOQ_Web_PickYourPlan_ALL_USER.HOOQ_Web_PickYourPlan_ALL_USER(HOOQ_Web_PickYourPlan_ALL_USER.java:61)
+HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback(tv.hooq.web.scripts.HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback)  Time elapsed: 184.876 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Search Button</b> was <b>NOT</b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+	at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback.HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback(HOOQ_Web_Player_Settings_ActiveUserAttemptingVideoPlayback.java:27)
+HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback(tv.hooq.web.scripts.HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback)  Time elapsed: 144.27 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Search Button</b> was <b>NOT</b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+	at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback.HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback(HOOQ_Web_Player_Settings_FreeTrialUserAttemptingContentPlayback.java:27)
+HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback(tv.hooq.web.scripts.HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback)  Time elapsed: 136.135 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Search Button</b> was <b>NOT</b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+	at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback.HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback(HOOQ_Web_Player_Settings_LapsedUserAattemptingVideoPlayback.java:27)
+HOOQ_Web_Player_Settings_UserAccess(tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess)  Time elapsed: 138.13 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Search Button</b> was <b>NOT</b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+	at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess.HOOQ_Web_Player_Settings_UserAccess(HOOQ_Web_Player_Settings_UserAccess.java:37)
+HOOQ_Web_Player_Settings_UserAccess(tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess)  Time elapsed: 138.531 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Search Button</b> was <b>NOT</b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificItem(HOOQWorkflows.java:172)
+	at tv.hooq.web.scripts.HOOQ_Web_Player_Settings_UserAccess.HOOQ_Web_Player_Settings_UserAccess(HOOQ_Web_Player_Settings_UserAccess.java:73)
+HOOQ_Web_PlayerSettings(tv.hooq.web.scripts.HOOQ_Web_PlayerSettings)  Time elapsed: 141.539 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Search Button</b> was <b>NOT</b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificEpisode(HOOQWorkflows.java:347)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyPlayerSettings(HOOQWorkflows.java:2026)
+	at tv.hooq.web.scripts.HOOQ_Web_PlayerSettings.HOOQ_Web_PlayerSettings(HOOQ_Web_PlayerSettings.java:34)
+HOOQ_Web_PlayerSettings(tv.hooq.web.scripts.HOOQ_Web_PlayerSettings)  Time elapsed: 139.238 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Search Button</b> was <b>NOT</b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificEpisode(HOOQWorkflows.java:347)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyPlayerSettings(HOOQWorkflows.java:2026)
+	at tv.hooq.web.scripts.HOOQ_Web_PlayerSettings.HOOQ_Web_PlayerSettings(HOOQ_Web_PlayerSettings.java:34)
+HOOQ_Web_PlayerSettings(tv.hooq.web.scripts.HOOQ_Web_PlayerSettings)  Time elapsed: 140.507 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Search Button</b> was <b>NOT</b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.browseSpecificEpisode(HOOQWorkflows.java:347)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyPlayerSettings(HOOQWorkflows.java:2003)
+	at tv.hooq.web.scripts.HOOQ_Web_PlayerSettings.HOOQ_Web_PlayerSettings(HOOQ_Web_PlayerSettings.java:34)
+HOOQ_Web_Search_ContentDetails(tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails)  Time elapsed: 150.935 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Search Button</b> was <b>NOT</b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnSearchContent(HOOQWorkflows.java:6359)
+	at tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails.HOOQ_Web_Search_ContentDetails(HOOQ_Web_Search_ContentDetails.java:51)
+HOOQ_Web_Search_ContentDetails(tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails)  Time elapsed: 141.024 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Search Button</b> was <b>NOT</b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnSearchContent(HOOQWorkflows.java:6359)
+	at tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails.HOOQ_Web_Search_ContentDetails(HOOQ_Web_Search_ContentDetails.java:51)
+HOOQ_Web_Search_ContentDetails(tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails)  Time elapsed: 147.636 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Search Button</b> was <b>NOT</b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.click(ActionEngine.java:95)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnSearchContent(HOOQWorkflows.java:6359)
+	at tv.hooq.web.scripts.HOOQ_Web_Search_ContentDetails.HOOQ_Web_Search_ContentDetails(HOOQ_Web_Search_ContentDetails.java:51)
+HOOQ_Web_Settings(tv.hooq.web.scripts.HOOQ_Web_Settings)  Time elapsed: 139.304 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSettings(HOOQWorkflows.java:737)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySettings(HOOQWorkflows.java:3615)
+	at tv.hooq.web.scripts.HOOQ_Web_Settings.HOOQ_Web_Settings(HOOQ_Web_Settings.java:34)
+HOOQ_Web_Settings(tv.hooq.web.scripts.HOOQ_Web_Settings)  Time elapsed: 135.785 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSettings(HOOQWorkflows.java:737)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySettings(HOOQWorkflows.java:3615)
+	at tv.hooq.web.scripts.HOOQ_Web_Settings.HOOQ_Web_Settings(HOOQ_Web_Settings.java:34)
+HOOQ_Web_Settings(tv.hooq.web.scripts.HOOQ_Web_Settings)  Time elapsed: 141.3 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSettings(HOOQWorkflows.java:737)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySettings(HOOQWorkflows.java:3615)
+	at tv.hooq.web.scripts.HOOQ_Web_Settings.HOOQ_Web_Settings(HOOQ_Web_Settings.java:34)
+HOOQ_Web_Support_AfterLogin(tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin)  Time elapsed: 143.558 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySupport(HOOQWorkflows.java:1333)
+	at tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin.HOOQ_Web_Support_AfterLogin(HOOQ_Web_Support_AfterLogin.java:34)
+HOOQ_Web_Support_AfterLogin(tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin)  Time elapsed: 142.144 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySupport(HOOQWorkflows.java:1333)
+	at tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin.HOOQ_Web_Support_AfterLogin(HOOQ_Web_Support_AfterLogin.java:34)
+HOOQ_Web_Support_AfterLogin(tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin)  Time elapsed: 147.535 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSupport(HOOQWorkflows.java:748)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifySupport(HOOQWorkflows.java:1333)
+	at tv.hooq.web.scripts.HOOQ_Web_Support_AfterLogin.HOOQ_Web_Support_AfterLogin(HOOQ_Web_Support_AfterLogin.java:34)
+HOOQ_Web_TVOD_Rent_With_CC(tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC)  Time elapsed: 145.983 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnGetTicketCount(HOOQWorkflows.java:4833)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC.HOOQ_Web_TVOD_Rent_With_CC(HOOQ_Web_TVOD_Rent_With_CC.java:48)
+HOOQ_Web_TVOD_Rent_With_CC(tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC)  Time elapsed: 145.007 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Rent Button</b> was <b> NOT </b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC.HOOQ_Web_TVOD_Rent_With_CC(HOOQ_Web_TVOD_Rent_With_CC.java:50)
+HOOQ_Web_TVOD_Rent_With_CC(tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC)  Time elapsed: 141.238 sec  <<< FAILURE!
+java.lang.AssertionError: Step Click Failed with description <b>Rent Button</b> was <b> NOT </b> clicked expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.JSClick(ActionEngine.java:1923)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_CC.HOOQ_Web_TVOD_Rent_With_CC(HOOQ_Web_TVOD_Rent_With_CC.java:50)
+HOOQ_Web_TVOD_Rent_With_Ticket(tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_Ticket)  Time elapsed: 137.459 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+	at tv.hooq.web.scripts.HOOQ_Web_TVOD_Rent_With_Ticket.HOOQ_Web_TVOD_Rent_With_Ticket(HOOQ_Web_TVOD_Rent_With_Ticket.java:33)
+HOOQ_Web_Verify_Favorite(tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite)  Time elapsed: 140.887 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageBannerFavorite(HOOQWorkflows.java:7572)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite.HOOQ_Web_Verify_Favorite(HOOQ_Web_Verify_Favorite.java:33)
+HOOQ_Web_Verify_Favorite(tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite)  Time elapsed: 136.929 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyHomePageBannerFavorite(HOOQWorkflows.java:7572)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_Favorite.HOOQ_Web_Verify_Favorite(HOOQ_Web_Verify_Favorite.java:33)
+HOOQ_Web_Verify_PlayBack_From_History(tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_From_History)  Time elapsed: 142.21 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToHistory(HOOQWorkflows.java:702)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListHistory(HOOQWorkflows.java:1217)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_From_History.HOOQ_Web_Verify_PlayBack_From_History(HOOQ_Web_Verify_PlayBack_From_History.java:33)
+HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite(tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite)  Time elapsed: 147.135 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFavoritesContenDetails(HOOQWorkflows.java:1608)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite(HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.java:33)
+HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite(tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite)  Time elapsed: 137.272 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFavoritesContenDetails(HOOQWorkflows.java:1608)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite(HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.java:33)
+HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite(tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite)  Time elapsed: 136.995 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToFavorite(HOOQWorkflows.java:680)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListFaviorite(HOOQWorkflows.java:1174)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyFavoritesContenDetails(HOOQWorkflows.java:1608)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite(HOOQ_Web_Verify_PlayBack_Watch_Later_Favorite.java:33)
+HOOQ_Web_Verify_Voucher(tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher)  Time elapsed: 140.252 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSubscription(HOOQWorkflows.java:669)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher.HOOQ_Web_Verify_Voucher(HOOQ_Web_Verify_Voucher.java:32)
+HOOQ_Web_Verify_Voucher(tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher)  Time elapsed: 139.17 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSubscription(HOOQWorkflows.java:669)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher.HOOQ_Web_Verify_Voucher(HOOQ_Web_Verify_Voucher.java:32)
+HOOQ_Web_Verify_Voucher(tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher)  Time elapsed: 136.739 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToSubscription(HOOQWorkflows.java:669)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_Voucher.HOOQ_Web_Verify_Voucher(HOOQ_Web_Verify_Voucher.java:32)
+HOOQ_Web_Verify_WatchLater(tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater)  Time elapsed: 146.185 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToWatchlater(HOOQWorkflows.java:691)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListWatchlater(HOOQWorkflows.java:1290)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyWatchLaterHomeScreen(HOOQWorkflows.java:1477)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater.HOOQ_Web_Verify_WatchLater(HOOQ_Web_Verify_WatchLater.java:33)
+HOOQ_Web_Verify_WatchLater(tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater)  Time elapsed: 141.111 sec  <<< FAILURE!
+java.lang.AssertionError: Step MouseOver  Failed with description MouseOver Action was <b>NOT</b> perform on <b>Header Navigation</b> expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ctaf.support.HtmlReportSupport.onFailure(HtmlReportSupport.java:780)
+	at com.ctaf.utilities.Reporter.failureReport(Reporter.java:92)
+	at com.ctaf.accelerators.ActionEngine.mouseHoverByJavaScript(ActionEngine.java:1874)
+	at tv.hooq.web.workflows.HOOQWorkflows.navigateToWatchlater(HOOQWorkflows.java:691)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnClearListWatchlater(HOOQWorkflows.java:1290)
+	at tv.hooq.web.workflows.HOOQWorkflows.fnVerifyWatchLaterHomeScreen(HOOQWorkflows.java:1477)
+	at tv.hooq.web.scripts.HOOQ_Web_Verify_WatchLater.HOOQ_Web_Verify_WatchLater(HOOQ_Web_Verify_WatchLater.java:33)

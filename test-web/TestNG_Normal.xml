@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="HOOQ" allow-return-values="true" verbose="2">
+	<test name="Grouping" preserve-order="true">
+			<groups>
+				<run>
+					<include name="web"/>
+				</run>
+			</groups>
+		<classes>		    
+				<class name="tv.hooq.web.scripts.HOOQ_Support_AfterLogin"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Support_BeforeLogin"/>	
+		    	<class name="tv.hooq.web.scripts.HOOQ_Home_Page_VerifyHomePage"/>			
+		   		<class name="tv.hooq.web.scripts.HOOQ_Home_Page_VerifyBanner"/>	   		
+				<class name="tv.hooq.web.scripts.HOOQ_Login_Email_Login"/>	
+		    	<class name="tv.hooq.web.scripts.HOOQ_FaceBookLogin"/>			
+				<class name="tv.hooq.web.scripts.HOOQ_Search"/>	
+				<class name="tv.hooq.web.scripts.HOOQ_Settings"/>
+				<class name="tv.hooq.web.scripts.Hooq_Subscription_VOUCHER_CODE_REDEMPTION"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Subscription_CheckingPaymentPlan"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Verify_FavoriteHomePage"/>
+				<class name="tv.hooq.web.scripts.HOOQ_Verify_WatchLaterHomePage"/>
+		</classes>
+	</test>
+</suite>

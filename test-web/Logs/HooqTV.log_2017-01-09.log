@@ -1,0 +1,510 @@
+2017-01-09 11:32:19-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 11:32:30-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:32:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:32:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:33:44-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 11:33:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:34:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:34:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:34:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:34:56-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 11:35:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 11:35:43-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Login Email
+2017-01-09 11:35:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 11:35:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 11:36:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 11:36:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 11:37:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:38:16-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 11:38:25-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:38:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:38:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:38:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:38:48-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 11:38:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 11:39:44-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Login Email
+2017-01-09 11:39:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 11:39:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 11:40:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 11:40:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 11:41:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:41:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:41:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:41:37-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 11:41:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 11:42:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-01-09 11:43:12-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:43:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:43:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:43:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:43:45-main--INFO -com.ctaf.accelerators.TestEngine:Entered value invalidhooqemail@cigniti.com in: Email Address
+2017-01-09 11:43:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 11:44:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:45:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:45:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:45:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:45:17-main--INFO -com.ctaf.accelerators.TestEngine:Entered value AAA in: Email Address
+2017-01-09 11:45:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 11:45:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:50:51-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:51:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:51:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:51:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:51:12-main--INFO -com.ctaf.accelerators.TestEngine:Entered value AAA. in: Email Address
+2017-01-09 11:51:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 11:51:31-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:51:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:51:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:51:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:51:53-main--INFO -com.ctaf.accelerators.TestEngine:Entered value %^$%^@&^.&%^ in: Email Address
+2017-01-09 11:51:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 11:52:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:52:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:52:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:52:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:52:30-main--INFO -com.ctaf.accelerators.TestEngine:Entered value %%%%^@ in: Email Address
+2017-01-09 11:52:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 11:52:49-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:53:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:53:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:53:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:53:09-main--INFO -com.ctaf.accelerators.TestEngine:Entered value &^^&&. in: Email Address
+2017-01-09 11:53:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 11:53:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:53:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:53:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:53:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:53:47-main--INFO -com.ctaf.accelerators.TestEngine:Entered value &^%%$% in: Email Address
+2017-01-09 11:53:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 11:54:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:54:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:54:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:54:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:54:21-main--INFO -com.ctaf.accelerators.TestEngine:Entered value       .      in: Email Address
+2017-01-09 11:54:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 11:54:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:55:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:55:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:55:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:55:53-main--INFO -com.ctaf.accelerators.TestEngine:Entered value      @      in: Email Address
+2017-01-09 11:55:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 11:56:12-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:56:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:56:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:56:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:56:31-main--INFO -com.ctaf.accelerators.TestEngine:Entered value     @   .    in: Email Address
+2017-01-09 11:56:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 11:56:51-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 11:57:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 11:57:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 11:57:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 11:57:40-main--INFO -com.ctaf.accelerators.TestEngine:Entered value         in: Email Address
+2017-01-09 11:57:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:00:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 12:00:43-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 12:01:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:01:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:01:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:01:28-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 12:01:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:02:07-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Login Email
+2017-01-09 12:02:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 12:02:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 12:02:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 12:02:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 12:03:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:03:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:03:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:03:50-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 12:03:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:04:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-01-09 12:04:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 12:04:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:04:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:04:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:04:52-main--INFO -com.ctaf.accelerators.TestEngine:Entered value invalidhooqemail@cigniti.com in: Email Address
+2017-01-09 12:04:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:06:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 12:06:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:06:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:06:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:06:43-main--INFO -com.ctaf.accelerators.TestEngine:Entered value AAA in: Email Address
+2017-01-09 12:06:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:07:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 12:07:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:07:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:07:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:07:32-main--INFO -com.ctaf.accelerators.TestEngine:Entered value AAA@ in: Email Address
+2017-01-09 12:07:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:07:54-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 12:08:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:08:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:08:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:08:21-main--INFO -com.ctaf.accelerators.TestEngine:Entered value AAA. in: Email Address
+2017-01-09 12:08:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:08:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 12:08:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:08:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:08:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:08:54-main--INFO -com.ctaf.accelerators.TestEngine:Entered value %^$%^@&^.&%^ in: Email Address
+2017-01-09 12:08:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:09:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 12:10:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:10:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:10:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:10:12-main--INFO -com.ctaf.accelerators.TestEngine:Entered value %%%%^@ in: Email Address
+2017-01-09 12:10:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:10:39-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 12:10:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:10:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:10:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:10:53-main--INFO -com.ctaf.accelerators.TestEngine:Entered value &^^&&. in: Email Address
+2017-01-09 12:10:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:11:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 12:11:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:11:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:11:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:11:29-main--INFO -com.ctaf.accelerators.TestEngine:Entered value &^%%$% in: Email Address
+2017-01-09 12:11:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:11:48-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 12:12:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:12:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:12:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:12:07-main--INFO -com.ctaf.accelerators.TestEngine:Entered value       .      in: Email Address
+2017-01-09 12:12:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:12:28-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 12:12:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:12:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:12:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:12:44-main--INFO -com.ctaf.accelerators.TestEngine:Entered value      @      in: Email Address
+2017-01-09 12:12:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:13:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 12:13:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:13:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:13:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:13:26-main--INFO -com.ctaf.accelerators.TestEngine:Entered value     @   .    in: Email Address
+2017-01-09 12:13:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:13:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : C92_HOOQ_EmailLogin
+2017-01-09 12:13:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:13:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:13:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:14:00-main--INFO -com.ctaf.accelerators.TestEngine:Entered value         in: Email Address
+2017-01-09 12:14:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:14:53-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 12:15:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_PlayerSettings
+2017-01-09 12:15:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:15:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:15:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:15:12-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 12:15:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:15:51-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Login Email
+2017-01-09 12:15:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 12:16:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 12:16:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 12:16:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 12:17:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:17:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:17:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:17:30-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 12:17:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:18:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-01-09 12:18:01-main--INFO -com.ctaf.accelerators.TestEngine:Entered value Arrow in: Search Textbox
+2017-01-09 12:18:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: Arrow
+2017-01-09 12:18:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-01-09 12:20:51-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 12:21:05-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Player_Settings_ActiveUserAttemptingVideoPlayback
+2017-01-09 12:21:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:21:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:21:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:21:41-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 12:21:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:22:15-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Login Email
+2017-01-09 12:22:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 12:22:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 12:22:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 12:22:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 12:24:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:24:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:24:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:24:11-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 12:24:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:24:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-01-09 12:24:43-main--INFO -com.ctaf.accelerators.TestEngine:Entered value DUPLEX in: Search Textbox
+2017-01-09 12:24:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: DUPLEX
+2017-01-09 12:25:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-01-09 12:29:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-01-09 12:30:20-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 12:30:28-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Player_Settings_FreeTrialUserAttemptingContentPlayback
+2017-01-09 12:30:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:30:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:30:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:30:41-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 12:30:43-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:31:15-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Login Email
+2017-01-09 12:31:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 12:31:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 12:31:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 12:31:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 12:32:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:32:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:32:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:33:01-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 12:33:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 12:33:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Search Button
+2017-01-09 12:33:31-main--INFO -com.ctaf.accelerators.TestEngine:Entered value DUPLEX in: Search Textbox
+2017-01-09 12:33:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Item: DUPLEX
+2017-01-09 12:33:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Now
+2017-01-09 12:35:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-01-09 12:37:22-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 12:37:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_FaceBookLogin
+2017-01-09 12:37:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 12:37:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 12:37:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 12:37:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Login with Facebook
+2017-01-09 14:24:53-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 14:25:06-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 14:25:15-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Settings
+2017-01-09 14:25:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 14:25:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 14:25:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 14:25:35-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 14:25:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 14:27:24-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Login Email
+2017-01-09 14:27:31-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 14:27:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 14:27:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 14:27:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 14:28:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 14:29:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 14:29:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 14:29:05-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 14:29:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 14:29:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Settings
+2017-01-09 14:29:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-01-09 14:30:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-01-09 14:30:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-01-09 14:30:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Save
+2017-01-09 14:31:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-01-09 14:33:16-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 14:33:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : Hooq_Subscription_VOUCHER_CODE_REDEMPTION
+2017-01-09 14:33:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 14:33:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 14:34:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 14:34:04-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 14:34:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 14:34:54-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Login Email
+2017-01-09 14:35:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 14:35:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 14:35:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 14:35:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 14:36:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 14:36:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 14:36:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 14:36:41-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 14:36:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 14:37:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-01-09 14:37:15-main--INFO -com.ctaf.accelerators.TestEngine:Entered value 123456789 in: Invalid voucher Code
+2017-01-09 14:37:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Voucher code submission
+2017-01-09 14:37:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-01-09 14:43:02-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 14:43:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Subscription_CheckingPaymentPlan
+2017-01-09 14:43:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 14:43:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 14:43:23-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 14:43:26-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 14:43:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 14:44:25-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Login Email
+2017-01-09 14:44:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 14:44:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 14:44:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 14:44:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 14:46:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 14:46:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 14:46:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 14:46:08-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 14:46:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 14:46:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Subscription
+2017-01-09 14:46:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Manage
+2017-01-09 14:46:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>7 Days</b>
+2017-01-09 14:46:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-01-09 14:46:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-01-09 14:47:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-01-09 14:47:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>30 Days</b>
+2017-01-09 14:47:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-01-09 14:47:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-01-09 14:47:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-01-09 14:47:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>90 Days</b>
+2017-01-09 14:47:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-01-09 14:47:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-01-09 14:47:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-01-09 14:47:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>180 Days</b>
+2017-01-09 14:47:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-01-09 14:47:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-01-09 14:47:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Auto-Renew
+2017-01-09 14:47:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Plan: <b>360 Days</b>
+2017-01-09 14:48:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-01-09 14:49:02-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 14:49:31-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 14:49:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Support_BeforeLogin
+2017-01-09 14:49:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on About Us
+2017-01-09 14:49:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on FAQ
+2017-01-09 14:50:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Privacy Policy
+2017-01-09 14:50:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Terms of Use
+2017-01-09 14:50:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Sign Up
+2017-01-09 14:50:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 14:50:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 14:50:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Skip
+2017-01-09 14:50:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Skip
+2017-01-09 14:51:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on About Us
+2017-01-09 14:51:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on FAQ
+2017-01-09 14:51:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Privacy Policy
+2017-01-09 14:51:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Terms of Use
+2017-01-09 14:52:13-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 14:52:20-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Support_AfterLogin
+2017-01-09 14:52:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 14:52:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 14:52:34-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 14:52:37-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 14:52:39-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 14:53:27-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Login Email
+2017-01-09 14:53:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 14:53:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 14:53:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 14:53:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 14:54:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 14:55:01-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 14:55:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 14:55:07-main--INFO -com.ctaf.accelerators.TestEngine:Entered value apitest9jan@yopmail.com in: Email Address
+2017-01-09 14:55:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 14:55:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Support
+2017-01-09 14:55:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on About Us
+2017-01-09 14:56:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on FAQ
+2017-01-09 14:56:13-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Privacy Policy
+2017-01-09 14:56:25-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Terms of Use
+2017-01-09 14:56:41-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on About Us
+2017-01-09 14:56:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on FAQ
+2017-01-09 14:57:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Privacy Policy
+2017-01-09 14:57:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Terms of Use
+2017-01-09 14:57:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-01-09 14:59:51-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 14:59:59-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_FavoriteHomePage
+2017-01-09 15:00:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 15:00:12-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 15:00:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 15:00:18-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 15:00:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 15:01:03-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Login Email
+2017-01-09 15:01:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 15:01:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 15:01:20-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 15:01:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 15:02:36-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 15:02:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 15:02:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 15:02:43-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 15:02:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 15:03:15-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Favorite
+2017-01-09 15:03:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-01-09 15:08:55-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 15:09:16-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_FavoriteHomePage
+2017-01-09 15:09:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 15:09:27-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 15:09:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 15:09:33-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 15:09:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 15:10:18-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Login Email
+2017-01-09 15:10:28-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 15:10:32-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 15:10:37-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 15:10:38-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 15:12:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 15:12:04-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 15:12:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 15:12:09-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 15:12:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 15:12:49-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Favorite
+2017-01-09 15:13:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-01-09 15:18:43-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 15:18:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_FavoriteHomePage
+2017-01-09 15:19:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 15:19:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 15:19:05-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 15:19:09-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 15:19:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 15:19:38-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Login Email
+2017-01-09 15:19:46-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 15:19:51-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 15:19:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 15:19:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 15:21:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 15:21:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 15:21:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 15:21:24-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 15:21:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 15:22:07-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Favorite
+2017-01-09 15:22:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-01-09 15:22:58-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Faviorites
+2017-01-09 15:23:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Favorite
+2017-01-09 15:25:11-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out
+2017-01-09 15:25:35-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 15:25:42-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_WatchLaterHomePage
+2017-01-09 15:25:42-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 15:25:53-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 15:25:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 15:25:58-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 15:26:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 15:26:40-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Login Email
+2017-01-09 15:26:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 15:26:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 15:26:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 15:26:57-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 15:28:14-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 15:28:16-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 15:28:18-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 15:28:21-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 15:28:26-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 15:28:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-01-09 15:30:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-01-09 15:30:22-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-01-09 15:32:40-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 15:32:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_WatchLaterHomePage
+2017-01-09 15:32:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 15:32:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 15:32:56-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 15:32:59-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 15:33:02-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 15:34:12-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Login Email
+2017-01-09 15:34:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 15:34:24-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 15:34:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 15:34:29-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 15:35:48-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 15:35:50-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 15:35:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 15:35:55-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 15:36:00-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 15:36:33-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-01-09 15:36:47-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-01-09 15:39:15-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-01-09 15:39:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : HOOQ_Verify_WatchLaterHomePage
+2017-01-09 15:42:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 15:42:52-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 15:42:54-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 15:42:57-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 15:42:59-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 15:45:25-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Login Email
+2017-01-09 15:45:35-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Check Email
+2017-01-09 15:45:40-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Confirmation Email Link
+2017-01-09 15:45:44-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Delete
+2017-01-09 15:45:45-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Empty Inbox
+2017-01-09 15:47:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log In
+2017-01-09 15:47:08-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on API Selection
+2017-01-09 15:47:10-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Test Selected
+2017-01-09 15:47:14-main--INFO -com.ctaf.accelerators.TestEngine:Entered value cigni01JAN2016@yopmail.com in: Email Address
+2017-01-09 15:47:19-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Done
+2017-01-09 15:47:55-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-01-09 15:48:09-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-01-09 15:48:30-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch Later
+2017-01-09 15:49:03-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Home Page
+2017-01-09 15:49:06-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Watch later
+2017-01-09 15:52:21-main--INFO -com.ctaf.accelerators.TestEngine:Clicked on Log out

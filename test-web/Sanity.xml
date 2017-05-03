@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="HOOQ" allow-return-values="true" verbose="2">
+	<test name="Grouping" preserve-order="true">
+			<groups>
+				<run>
+					<include name="web"/>
+				</run>
+			</groups>
+		<classes>    	
+		    	<class name="tv.hooq.web.script.sanity.HOOQ_Web_Sanity_FaceBookLogin"/>
+		    	<class name="tv.hooq.web.script.sanity.HOOQ_Web_Sanity_Home_Page_VerifyHomePage"/>
+		    	<class name="tv.hooq.web.script.sanity.HOOQ_Web_Sanity_Player_Settings_UserAccess"/>
+		    	<class name="tv.hooq.web.script.sanity.HOOQ_Web_Sanity_Search_ContentDetails"/>
+		    	<class name="tv.hooq.web.script.sanity.HOOQ_Web_Sanity_Settings"/>
+		    	<class name="tv.hooq.web.script.sanity.HOOQ_Web_Sanity_Subscription_Checking_Payment_Method"/>
+		    	<class name="tv.hooq.web.script.sanity.HOOQ_Web_Sanity_Subscription_CheckingPaymentPlan"/>
+		    	<class name="tv.hooq.web.script.sanity.HOOQ_Web_Sanity_Support"/>
+		    	<class name="tv.hooq.web.script.sanity.HOOQ_Web_Sanity_Verify_WatchLater"/>
+		    	<class name="tv.hooq.web.script.sanity.HOOQ_Web_Saniti_Verify_Favorite"/>		    		    	
+		</classes>
+	</test>
+</suite>
